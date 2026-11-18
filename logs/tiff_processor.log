@@ -1,0 +1,42 @@
+2026-11-18 10:17:43,424 - ERROR - tiff_processor - TIFF-Verarbeitung fehlgeschlagen: Image size (450640000 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.
+Traceback (most recent call last):
+  File "/pecom/imgsrv/modules/tiff_processor.py", line 175, in main
+    output_file = convert_tiff_to_png(args.tiff_file, config, logger)
+  File "/pecom/imgsrv/modules/tiff_processor.py", line 141, in convert_tiff_to_png
+    width, height, dpi = read_tiff_info(tiff_file)
+                         ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/pecom/imgsrv/modules/tiff_processor.py", line 29, in read_tiff_info
+    with Image.open(filename) as image:
+         ~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3569, in open
+    im = _open_core(
+        fp,
+    ...<2 lines>...
+        tuple(format for format in formats if format not in checked_formats),
+    )
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3553, in _open_core
+    _decompression_bomb_check(im.size)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3454, in _decompression_bomb_check
+    raise DecompressionBombError(msg)
+PIL.Image.DecompressionBombError: Image size (450640000 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.
+2026-11-18 10:19:42,846 - INFO - tiff_processor - TIFF: A2B0BSV072301AAC.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 10:19:46,550 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2B0BSV072301AAC.png (1075x1638)
+2026-11-18 12:01:57,082 - INFO - tiff_processor - TIFF: A2B0BSV072301AAC.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:02:02,543 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2B0BSV072301AAC.png (1075x1638)
+2026-11-18 12:02:21,410 - INFO - tiff_processor - TIFF: A2B0BSV072301AAM.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:02:26,304 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2B0BSV072301AAM.png (1075x1638)
+2026-11-18 12:02:31,986 - INFO - tiff_processor - TIFF: A2C0CSV072301ELLC.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:02:36,424 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2C0CSV072301ELLC.png (1075x1638)
+2026-11-18 12:02:44,857 - INFO - tiff_processor - TIFF: A2C0CSV072301ELLM.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:02:48,984 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2C0CSV072301ELLM.png (1075x1638)
+2026-11-18 12:03:20,481 - INFO - tiff_processor - TIFF: A2B0BSV072301AAK.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:03:24,539 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2B0BSV072301AAK.png (1075x1638)
+2026-11-18 12:03:31,363 - INFO - tiff_processor - TIFF: A2B0BSV072301AAY.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:03:35,329 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2B0BSV072301AAY.png (1075x1638)
+2026-11-18 12:03:40,865 - INFO - tiff_processor - TIFF: A2C0CSV072301ELLK.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:03:44,931 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2C0CSV072301ELLK.png (1075x1638)
+2026-11-18 12:03:53,140 - INFO - tiff_processor - TIFF: A2C0CSV072301ELLY.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:03:57,156 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2C0CSV072301ELLY.png (1075x1638)
+2026-11-18 12:35:39,900 - INFO - tiff_processor - TIFF: A2C0CSV072301ELLY.tif, 17200x26200, 1270.00 dpi, Faktor=16, Algorithmus=2, Join=4
+2026-11-18 12:35:44,332 - INFO - tiff_processor - PNG geschrieben: /pecom/imgsrv/pngs/A2C0CSV072301ELLY.png (1075x1638)

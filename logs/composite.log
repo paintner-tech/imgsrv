@@ -1,0 +1,12 @@
+2026-11-18 12:05:17,556 - ERROR - composite - 4C-Erstellung fehlgeschlagen: /pecom/imgsrv/modules/A2C0CSV072301ELLC.png
+Traceback (most recent call last):
+  File "/pecom/imgsrv/modules/compsite.py", line 184, in main
+    output_file = create_composite(args.png_file, config, logger)
+  File "/pecom/imgsrv/modules/compsite.py", line 133, in create_composite
+    files = find_separations(one_png, config)
+  File "/pecom/imgsrv/modules/compsite.py", line 44, in find_separations
+    raise FileNotFoundError(one_png)
+FileNotFoundError: /pecom/imgsrv/modules/A2C0CSV072301ELLC.png
+2026-11-18 12:05:32,560 - INFO - composite - Erzeuge 4C aus: A2C0CSV072301ELLC.png, A2C0CSV072301ELLM.png, A2C0CSV072301ELLY.png, A2C0CSV072301ELLK.png
+2026-11-18 12:05:32,560 - INFO - composite - Ausgangsgroesse: 1075x1638
+2026-11-18 12:05:32,799 - INFO - composite - 4C-PNG geschrieben: /pecom/imgsrv/composites/A2C0CSV072301ELL.png (1075x1638)
