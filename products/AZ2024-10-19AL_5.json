@@ -1,0 +1,2097 @@
+{
+    "product_name": "AZ    2024-10-19      AL_5",
+    "pages": {
+        "1": {
+            "K": "158337",
+            "C": "158331",
+            "M": "158333",
+            "Y": "158335"
+        },
+        "2": {
+            "K": "158345",
+            "C": "158339",
+            "M": "158341",
+            "Y": "158343"
+        },
+        "3": {
+            "K": "158311",
+            "C": "158299",
+            "M": "158303",
+            "Y": "158307"
+        },
+        "4": {
+            "K": "158327",
+            "C": "158315",
+            "M": "158319",
+            "Y": "158323"
+        },
+        "5": {
+            "K": "158313",
+            "C": "158301",
+            "M": "158305",
+            "Y": "158309"
+        },
+        "6": {
+            "K": "158329",
+            "C": "158317",
+            "M": "158321",
+            "Y": "158325"
+        },
+        "7": {
+            "K": "158328",
+            "C": "158316",
+            "M": "158320",
+            "Y": "158324"
+        },
+        "8": {
+            "K": "158312",
+            "C": "158300",
+            "M": "158304",
+            "Y": "158308"
+        },
+        "9": {
+            "K": "158326",
+            "C": "158314",
+            "M": "158318",
+            "Y": "158322"
+        },
+        "10": {
+            "K": "158310",
+            "C": "158298",
+            "M": "158302",
+            "Y": "158306"
+        },
+        "11": {
+            "K": "158344",
+            "C": "158338",
+            "M": "158340",
+            "Y": "158342"
+        },
+        "12": {
+            "K": "158336",
+            "C": "158330",
+            "M": "158332",
+            "Y": "158334"
+        }
+    },
+    "traces": {
+        "52688.1.10.0": {
+            "trace_id": "52688.1.10.0",
+            "page_number": 10,
+            "separations": {
+                "C": {
+                    "reference_name": "158298",
+                    "content_id": "A2606158298",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158302",
+                    "content_id": "A2606158302",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158306",
+                    "content_id": "A2606158306",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158310",
+                    "content_id": "A2606158310",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.3.0": {
+            "trace_id": "52688.1.3.0",
+            "page_number": 3,
+            "separations": {
+                "C": {
+                    "reference_name": "158299",
+                    "content_id": "A2606158299",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158303",
+                    "content_id": "A2606158303",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158307",
+                    "content_id": "A2606158307",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158311",
+                    "content_id": "A2606158311",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.8.0": {
+            "trace_id": "52688.1.8.0",
+            "page_number": 8,
+            "separations": {
+                "C": {
+                    "reference_name": "158300",
+                    "content_id": "A2606158300",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158304",
+                    "content_id": "A2606158304",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158308",
+                    "content_id": "A2606158308",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158312",
+                    "content_id": "A2606158312",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.5.0": {
+            "trace_id": "52688.1.5.0",
+            "page_number": 5,
+            "separations": {
+                "C": {
+                    "reference_name": "158301",
+                    "content_id": "A2606158301",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158305",
+                    "content_id": "A2606158305",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158309",
+                    "content_id": "A2606158309",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158313",
+                    "content_id": "A2606158313",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.10.1": {
+            "trace_id": "52688.1.10.1",
+            "page_number": 10,
+            "separations": {
+                "C": {
+                    "reference_name": "158298",
+                    "content_id": "A2606158298",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158302",
+                    "content_id": "A2606158302",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158306",
+                    "content_id": "A2606158306",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158310",
+                    "content_id": "A2606158310",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.3.1": {
+            "trace_id": "52688.1.3.1",
+            "page_number": 3,
+            "separations": {
+                "C": {
+                    "reference_name": "158299",
+                    "content_id": "A2606158299",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158303",
+                    "content_id": "A2606158303",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158307",
+                    "content_id": "A2606158307",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158311",
+                    "content_id": "A2606158311",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.8.1": {
+            "trace_id": "52688.1.8.1",
+            "page_number": 8,
+            "separations": {
+                "C": {
+                    "reference_name": "158300",
+                    "content_id": "A2606158300",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158304",
+                    "content_id": "A2606158304",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158308",
+                    "content_id": "A2606158308",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158312",
+                    "content_id": "A2606158312",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.5.1": {
+            "trace_id": "52688.1.5.1",
+            "page_number": 5,
+            "separations": {
+                "C": {
+                    "reference_name": "158301",
+                    "content_id": "A2606158301",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158305",
+                    "content_id": "A2606158305",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158309",
+                    "content_id": "A2606158309",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158313",
+                    "content_id": "A2606158313",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.9.0": {
+            "trace_id": "52688.1.9.0",
+            "page_number": 9,
+            "separations": {
+                "C": {
+                    "reference_name": "158314",
+                    "content_id": "A2606158314",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158318",
+                    "content_id": "A2606158318",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158322",
+                    "content_id": "A2606158322",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158326",
+                    "content_id": "A2606158326",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.4.0": {
+            "trace_id": "52688.1.4.0",
+            "page_number": 4,
+            "separations": {
+                "C": {
+                    "reference_name": "158315",
+                    "content_id": "A2606158315",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158319",
+                    "content_id": "A2606158319",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158323",
+                    "content_id": "A2606158323",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158327",
+                    "content_id": "A2606158327",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.7.0": {
+            "trace_id": "52688.1.7.0",
+            "page_number": 7,
+            "separations": {
+                "C": {
+                    "reference_name": "158316",
+                    "content_id": "A2606158316",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158320",
+                    "content_id": "A2606158320",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158324",
+                    "content_id": "A2606158324",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158328",
+                    "content_id": "A2606158328",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.6.0": {
+            "trace_id": "52688.1.6.0",
+            "page_number": 6,
+            "separations": {
+                "C": {
+                    "reference_name": "158317",
+                    "content_id": "A2606158317",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158321",
+                    "content_id": "A2606158321",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158325",
+                    "content_id": "A2606158325",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158329",
+                    "content_id": "A2606158329",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.9.1": {
+            "trace_id": "52688.1.9.1",
+            "page_number": 9,
+            "separations": {
+                "C": {
+                    "reference_name": "158314",
+                    "content_id": "A2606158314",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158318",
+                    "content_id": "A2606158318",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158322",
+                    "content_id": "A2606158322",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158326",
+                    "content_id": "A2606158326",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.4.1": {
+            "trace_id": "52688.1.4.1",
+            "page_number": 4,
+            "separations": {
+                "C": {
+                    "reference_name": "158315",
+                    "content_id": "A2606158315",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158319",
+                    "content_id": "A2606158319",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158323",
+                    "content_id": "A2606158323",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158327",
+                    "content_id": "A2606158327",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.7.1": {
+            "trace_id": "52688.1.7.1",
+            "page_number": 7,
+            "separations": {
+                "C": {
+                    "reference_name": "158316",
+                    "content_id": "A2606158316",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158320",
+                    "content_id": "A2606158320",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158324",
+                    "content_id": "A2606158324",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158328",
+                    "content_id": "A2606158328",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.6.1": {
+            "trace_id": "52688.1.6.1",
+            "page_number": 6,
+            "separations": {
+                "C": {
+                    "reference_name": "158317",
+                    "content_id": "A2606158317",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158321",
+                    "content_id": "A2606158321",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158325",
+                    "content_id": "A2606158325",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158329",
+                    "content_id": "A2606158329",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "2",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "2",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "2",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "2",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.12.0": {
+            "trace_id": "52688.1.12.0",
+            "page_number": 12,
+            "separations": {
+                "C": {
+                    "reference_name": "158330",
+                    "content_id": "A2606158330",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158332",
+                    "content_id": "A2606158332",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158334",
+                    "content_id": "A2606158334",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158336",
+                    "content_id": "A2606158336",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "0.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.1.0": {
+            "trace_id": "52688.1.1.0",
+            "page_number": 1,
+            "separations": {
+                "C": {
+                    "reference_name": "158331",
+                    "content_id": "A2606158331",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158333",
+                    "content_id": "A2606158333",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158335",
+                    "content_id": "A2606158335",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158337",
+                    "content_id": "A2606158337",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.12.1": {
+            "trace_id": "52688.1.12.1",
+            "page_number": 12,
+            "separations": {
+                "C": {
+                    "reference_name": "158330",
+                    "content_id": "A2606158330",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158332",
+                    "content_id": "A2606158332",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158334",
+                    "content_id": "A2606158334",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158336",
+                    "content_id": "A2606158336",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "0.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.1.1": {
+            "trace_id": "52688.1.1.1",
+            "page_number": 1,
+            "separations": {
+                "C": {
+                    "reference_name": "158331",
+                    "content_id": "A2606158331",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158333",
+                    "content_id": "A2606158333",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158335",
+                    "content_id": "A2606158335",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158337",
+                    "content_id": "A2606158337",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "1",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "3",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "5",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "7",
+                    "rectangle": [
+                        "350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.11.0": {
+            "trace_id": "52688.1.11.0",
+            "page_number": 11,
+            "separations": {
+                "C": {
+                    "reference_name": "158338",
+                    "content_id": "A2606158338",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158340",
+                    "content_id": "A2606158340",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158342",
+                    "content_id": "A2606158342",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158344",
+                    "content_id": "A2606158344",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-350.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.2.0": {
+            "trace_id": "52688.1.2.0",
+            "page_number": 2,
+            "separations": {
+                "C": {
+                    "reference_name": "158339",
+                    "content_id": "A2606158339",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158341",
+                    "content_id": "A2606158341",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158343",
+                    "content_id": "A2606158343",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158345",
+                    "content_id": "A2606158345",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-700.00",
+                        "510.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.11.1": {
+            "trace_id": "52688.1.11.1",
+            "page_number": 11,
+            "separations": {
+                "C": {
+                    "reference_name": "158338",
+                    "content_id": "A2606158338",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158340",
+                    "content_id": "A2606158340",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158342",
+                    "content_id": "A2606158342",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158344",
+                    "content_id": "A2606158344",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-350.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        },
+        "52688.1.2.1": {
+            "trace_id": "52688.1.2.1",
+            "page_number": 2,
+            "separations": {
+                "C": {
+                    "reference_name": "158339",
+                    "content_id": "A2606158339",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "M": {
+                    "reference_name": "158341",
+                    "content_id": "A2606158341",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "Y": {
+                    "reference_name": "158343",
+                    "content_id": "A2606158343",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                },
+                "K": {
+                    "reference_name": "158345",
+                    "content_id": "A2606158345",
+                    "icc_profile": "ISOnewspaper26v4.icc"
+                }
+            },
+            "placements": [
+                {
+                    "color": "C",
+                    "printing_unit": "1",
+                    "printing_couple": "2",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "M",
+                    "printing_unit": "1",
+                    "printing_couple": "4",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "Y",
+                    "printing_unit": "1",
+                    "printing_couple": "6",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                },
+                {
+                    "color": "K",
+                    "printing_unit": "1",
+                    "printing_couple": "8",
+                    "rectangle": [
+                        "-700.00",
+                        "0.00",
+                        "350.00",
+                        "510.00"
+                    ],
+                    "prepare_display": "yes",
+                    "standard": "yes",
+                    "trace_identification": "1"
+                }
+            ]
+        }
+    },
+    "empty_plates": 32,
+    "product_update": "202611251459"
+}

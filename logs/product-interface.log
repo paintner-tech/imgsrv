@@ -554,3 +554,384 @@ NameError: name 'target_file' is not defined. Did you mean: 'target_filename'?
 2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
 2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
 2026-11-25 08:21:29 - INFO     - product-interface.main:118 - Product list parser test completed successfully
+2026-11-25 13:10:38 - INFO     - product-interface:334 - ============================================================
+2026-11-25 13:10:38 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 13:10:38 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 13:10:38 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 13:10:38 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 13:10:38 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 13:10:38 - INFO     - product-interface:362 - Console output: True
+2026-11-25 13:10:38 - INFO     - product-interface:367 - ============================================================
+2026-11-25 13:10:38 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 13:10:38 - INFO     - product-interface.main:118 - Local request creation test completed
+2026-11-25 13:11:03 - INFO     - product-interface:334 - ============================================================
+2026-11-25 13:11:03 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 13:11:03 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 13:11:03 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 13:11:03 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 13:11:03 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 13:11:03 - INFO     - product-interface:362 - Console output: True
+2026-11-25 13:11:03 - INFO     - product-interface:367 - ============================================================
+2026-11-25 13:11:03 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 13:11:03 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-25 13:13:30 - INFO     - product-interface:334 - ============================================================
+2026-11-25 13:13:30 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 13:13:30 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 13:13:30 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 13:13:30 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 13:13:30 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 13:13:30 - INFO     - product-interface:362 - Console output: True
+2026-11-25 13:13:30 - INFO     - product-interface:367 - ============================================================
+2026-11-25 13:13:30 - INFO     - product-interface.main:112 - Starting product detail request test
+2026-11-25 13:13:30 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 13:13:30 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 13:13:30 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 13:13:30 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 13:13:30 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 13:13:30 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-25 13:13:30 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-25 13:13:30 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-25 13:13:30 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-25 13:13:30 - INFO     - product-interface.main:229 - Sending product detail request: 'AZ    2024-10-19      AL_5'
+2026-11-25 13:13:31 - INFO     - product-interface.main:229 - Sending product detail request: 'AZ    2024-10-19      BU'
+2026-11-25 13:13:32 - INFO     - product-interface.main:243 - Transfer completed: total=2, successful=2, failed=0
+2026-11-25 13:13:32 - INFO     - product-interface.main:295 - Product detail request test completed
+2026-11-25 13:18:30 - INFO     - product-interface:334 - ============================================================
+2026-11-25 13:18:30 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 13:18:30 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 13:18:30 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 13:18:30 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 13:18:30 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 13:18:30 - INFO     - product-interface:362 - Console output: True
+2026-11-25 13:18:30 - INFO     - product-interface:367 - ============================================================
+2026-11-25 13:18:30 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 13:18:30 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 13:18:30 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 13:18:30 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 13:18:30 - WARNING  - product-interface.main:308 - Response file archived: piiprdlst.pif
+2026-11-25 13:18:30 - WARNING  - product-interface.main:308 - Response file archived: piiprdlst.syc
+2026-11-25 13:18:30 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 13:18:30 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 13:18:31 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 13:18:31 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 13:18:31 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 13:18:31 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 13:18:31 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 13:18:31 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 13:18:31 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 13:18:31 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 13:18:31 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-25 13:18:31 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-25 13:18:31 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-25 13:18:31 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-25 13:18:31 - INFO     - product-interface.main:732 - Products requiring update: 2 of 2
+2026-11-25 13:18:31 - INFO     - product-interface.main:541 - Processing product: 'AZ    2024-10-19      AL_5'
+2026-11-25 13:18:31 - WARNING  - product-interface.main:308 - Response file archived: piiansAZ2024-10-19AL_5.pif
+2026-11-25 13:18:31 - WARNING  - product-interface.main:308 - Response file archived: piiansAZ2024-10-19AL_5.syc
+2026-11-25 13:18:33 - INFO     - product-interface.main:185 - Waiting for response: piiansAZ2024-10-19AL_5.pif
+2026-11-25 13:18:37 - INFO     - product-interface.main:198 - Response received: piiansAZ2024-10-19AL_5.pif
+2026-11-25 13:18:37 - INFO     - product-interface.main:430 - Product data saved: /pecom/imgsrv/products/AZ2024-10-19AL_5.json
+2026-11-25 13:18:37 - INFO     - product-interface.main:249 - Response files removed: piiansAZ2024-10-19AL_5.pif / piiansAZ2024-10-19AL_5.syc
+2026-11-25 13:18:37 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      AL_5' | Update: 202611240905
+2026-11-25 13:18:37 - INFO     - product-interface.main:640 - Product successfully processed: 'AZ    2024-10-19      AL_5'
+2026-11-25 13:18:37 - INFO     - product-interface.main:541 - Processing product: 'AZ    2024-10-19      BU'
+2026-11-25 13:18:37 - WARNING  - product-interface.main:308 - Response file archived: piiansAZ2024-10-19BU.pif
+2026-11-25 13:18:37 - WARNING  - product-interface.main:308 - Response file archived: piiansAZ2024-10-19BU.syc
+2026-11-25 13:18:39 - INFO     - product-interface.main:185 - Waiting for response: piiansAZ2024-10-19BU.pif
+2026-11-25 13:18:42 - INFO     - product-interface.main:198 - Response received: piiansAZ2024-10-19BU.pif
+2026-11-25 13:18:42 - INFO     - product-interface.main:430 - Product data saved: /pecom/imgsrv/products/AZ2024-10-19BU.json
+2026-11-25 13:18:42 - INFO     - product-interface.main:249 - Response files removed: piiansAZ2024-10-19BU.pif / piiansAZ2024-10-19BU.syc
+2026-11-25 13:18:42 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      BU' | Update: 202611240814
+2026-11-25 13:18:42 - INFO     - product-interface.main:640 - Product successfully processed: 'AZ    2024-10-19      BU'
+2026-11-25 13:18:42 - INFO     - product-interface.main:756 - Product update cycle completed: total=2, successful=2, failed=0
+2026-11-25 13:24:03 - INFO     - product-interface:334 - ============================================================
+2026-11-25 13:24:03 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 13:24:03 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 13:24:03 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 13:24:03 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 13:24:03 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 13:24:03 - INFO     - product-interface:362 - Console output: True
+2026-11-25 13:24:03 - INFO     - product-interface:367 - ============================================================
+2026-11-25 13:24:03 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 13:24:03 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 13:24:03 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 13:24:03 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 13:24:03 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 13:24:04 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 13:24:07 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 13:24:07 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 13:24:07 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 13:24:07 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 13:24:07 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 13:24:07 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 13:24:07 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 13:24:07 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 13:24:07 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 13:24:07 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 13:24:07 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-25 13:24:07 - INFO     - product-interface.main:732 - Products requiring update: 0 of 2
+2026-11-25 13:24:07 - INFO     - product-interface.main:756 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-25 13:25:20 - INFO     - product-interface:334 - ============================================================
+2026-11-25 13:25:20 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 13:25:20 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 13:25:20 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 13:25:20 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 13:25:20 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 13:25:20 - INFO     - product-interface:362 - Console output: True
+2026-11-25 13:25:20 - INFO     - product-interface:367 - ============================================================
+2026-11-25 13:25:20 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 13:25:20 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 13:25:20 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 13:25:20 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 13:25:20 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 13:25:21 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 13:25:22 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 13:25:22 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 13:25:22 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 13:25:22 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 13:25:22 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 13:25:22 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 13:25:22 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 13:25:22 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 13:25:22 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 13:25:22 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 13:25:22 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-25 13:25:22 - INFO     - product-interface.main:732 - Products requiring update: 0 of 2
+2026-11-25 13:25:22 - INFO     - product-interface.main:756 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-25 14:07:11 - INFO     - product-interface:334 - ============================================================
+2026-11-25 14:07:11 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 14:07:11 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 14:07:11 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 14:07:11 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 14:07:11 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 14:07:11 - INFO     - product-interface:362 - Console output: True
+2026-11-25 14:07:11 - INFO     - product-interface:367 - ============================================================
+2026-11-25 14:07:11 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 14:07:11 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 14:07:11 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 14:07:11 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 14:07:11 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 14:07:11 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 14:07:12 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 14:07:12 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 14:07:12 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 14:07:12 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251406
+2026-11-25 14:07:12 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 14:07:12 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 14:07:12 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 14:07:12 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 14:07:12 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 14:07:12 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 14:07:12 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611240905 -> 202611251406
+2026-11-25 14:07:12 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-25 14:07:12 - INFO     - product-interface.main:732 - Products requiring update: 1 of 2
+2026-11-25 14:07:12 - INFO     - product-interface.main:541 - Processing product: 'AZ    2024-10-19      AL_5'
+2026-11-25 14:07:13 - INFO     - product-interface.main:185 - Waiting for response: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:07:18 - INFO     - product-interface.main:198 - Response received: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:07:18 - WARNING  - product-interface.main:308 - Response file archived: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:07:18 - WARNING  - product-interface.main:308 - Response file archived: piiansAZ2024-10-19AL_5.syc
+2026-11-25 14:07:18 - ERROR    - product-interface.main:649 - Product processing failed: 'AZ    2024-10-19      AL_5'
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/supervisor.py", line 590, in process_product
+    details = parse_product_details(
+        response_file
+    )
+  File "/pecom/imgsrv/product-interface/product_details_parser.py", line 145, in parse_product_details
+    raise ValueError(f'{name}: page/plate mismatch {tid}: {group} {ref} != {expected}')
+ValueError: AZ    2024-10-19      AL_5: page/plate mismatch 52688.1.2.0: C 158339 != None
+2026-11-25 14:07:18 - INFO     - product-interface.main:756 - Product update cycle completed: total=1, successful=0, failed=1
+2026-11-25 14:12:38 - INFO     - product-interface:334 - ============================================================
+2026-11-25 14:12:38 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 14:12:38 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 14:12:38 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 14:12:38 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 14:12:38 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 14:12:38 - INFO     - product-interface:362 - Console output: True
+2026-11-25 14:12:38 - INFO     - product-interface:367 - ============================================================
+2026-11-25 14:12:38 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 14:12:38 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 14:12:38 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 14:12:38 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 14:12:38 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 14:12:39 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 14:12:43 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 14:12:43 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 14:12:43 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 14:12:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251411
+2026-11-25 14:12:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 14:12:43 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 14:12:43 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 14:12:43 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 14:12:43 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 14:12:43 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 14:12:43 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611240905 -> 202611251411
+2026-11-25 14:12:43 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-25 14:12:43 - INFO     - product-interface.main:732 - Products requiring update: 1 of 2
+2026-11-25 14:12:43 - INFO     - product-interface.main:541 - Processing product: 'AZ    2024-10-19      AL_5'
+2026-11-25 14:12:44 - INFO     - product-interface.main:185 - Waiting for response: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:12:49 - INFO     - product-interface.main:198 - Response received: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:12:49 - INFO     - product-interface.main:430 - Product data saved: /pecom/imgsrv/products/AZ2024-10-19AL_5.json
+2026-11-25 14:12:49 - INFO     - product-interface.main:249 - Response files removed: piiansAZ2024-10-19AL_5.pif / piiansAZ2024-10-19AL_5.syc
+2026-11-25 14:12:49 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      AL_5' | Update: 202611251411
+2026-11-25 14:12:49 - INFO     - product-interface.main:640 - Product successfully processed: 'AZ    2024-10-19      AL_5'
+2026-11-25 14:12:49 - INFO     - product-interface.main:756 - Product update cycle completed: total=1, successful=1, failed=0
+2026-11-25 14:14:26 - INFO     - product-interface:334 - ============================================================
+2026-11-25 14:14:26 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 14:14:26 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 14:14:26 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 14:14:26 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 14:14:26 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 14:14:26 - INFO     - product-interface:362 - Console output: True
+2026-11-25 14:14:26 - INFO     - product-interface:367 - ============================================================
+2026-11-25 14:14:26 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 14:14:26 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 14:14:26 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 14:14:26 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 14:14:26 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 14:14:27 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 14:14:28 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 14:14:28 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 14:14:28 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 14:14:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251413
+2026-11-25 14:14:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 14:14:28 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 14:14:28 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 14:14:28 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 14:14:28 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 14:14:28 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 14:14:28 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611251411 -> 202611251413
+2026-11-25 14:14:28 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-25 14:14:28 - INFO     - product-interface.main:732 - Products requiring update: 1 of 2
+2026-11-25 14:14:28 - INFO     - product-interface.main:541 - Processing product: 'AZ    2024-10-19      AL_5'
+2026-11-25 14:14:29 - INFO     - product-interface.main:185 - Waiting for response: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:14:33 - INFO     - product-interface.main:198 - Response received: piiansAZ2024-10-19AL_5.pif
+2026-11-25 14:14:33 - INFO     - product-interface.main:430 - Product data saved: /pecom/imgsrv/products/AZ2024-10-19AL_5.json
+2026-11-25 14:14:33 - INFO     - product-interface.main:249 - Response files removed: piiansAZ2024-10-19AL_5.pif / piiansAZ2024-10-19AL_5.syc
+2026-11-25 14:14:33 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      AL_5' | Update: 202611251413
+2026-11-25 14:14:33 - INFO     - product-interface.main:640 - Product successfully processed: 'AZ    2024-10-19      AL_5'
+2026-11-25 14:14:33 - INFO     - product-interface.main:756 - Product update cycle completed: total=1, successful=1, failed=0
+2026-11-25 15:00:54 - INFO     - product-interface:334 - ============================================================
+2026-11-25 15:00:54 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 15:00:54 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 15:00:54 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 15:00:54 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 15:00:54 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 15:00:54 - INFO     - product-interface:362 - Console output: True
+2026-11-25 15:00:54 - INFO     - product-interface:367 - ============================================================
+2026-11-25 15:00:54 - INFO     - product-interface.main:851 - Product Interface Supervisor started
+2026-11-25 15:00:54 - INFO     - product-interface.main:855 - Polling interval: 60 seconds
+2026-11-25 15:00:54 - INFO     - product-interface.main:680 - ============================================================
+2026-11-25 15:00:54 - INFO     - product-interface.main:684 - Starting product update cycle
+2026-11-25 15:00:54 - INFO     - product-interface.main:466 - Requesting product list
+2026-11-25 15:00:55 - INFO     - product-interface.main:185 - Waiting for response: piiprdlst.pif
+2026-11-25 15:00:59 - INFO     - product-interface.main:198 - Response received: piiprdlst.pif
+2026-11-25 15:00:59 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 15:00:59 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 15:00:59 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-25 15:00:59 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 15:00:59 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 15:00:59 - INFO     - product-interface.main:497 - Product list received: 2 products
+2026-11-25 15:00:59 - INFO     - product-interface.main:249 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 15:00:59 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 15:00:59 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 15:00:59 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611251413 -> 202611251459
+2026-11-25 15:00:59 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-25 15:00:59 - INFO     - product-interface.main:732 - Products requiring update: 1 of 2
+2026-11-25 15:00:59 - INFO     - product-interface.main:541 - Processing product: 'AZ    2024-10-19      AL_5'
+2026-11-25 15:00:59 - INFO     - product-interface.main:185 - Waiting for response: piiansAZ2024-10-19AL_5.pif
+2026-11-25 15:01:04 - INFO     - product-interface.main:198 - Response received: piiansAZ2024-10-19AL_5.pif
+2026-11-25 15:01:05 - INFO     - product-interface.main:430 - Product data saved: /pecom/imgsrv/products/AZ2024-10-19AL_5.json
+2026-11-25 15:01:05 - INFO     - product-interface.main:249 - Response files removed: piiansAZ2024-10-19AL_5.pif / piiansAZ2024-10-19AL_5.syc
+2026-11-25 15:01:05 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      AL_5' | Update: 202611251459
+2026-11-25 15:01:05 - INFO     - product-interface.main:640 - Product successfully processed: 'AZ    2024-10-19      AL_5'
+2026-11-25 15:01:05 - INFO     - product-interface.main:756 - Product update cycle completed: total=1, successful=1, failed=0
+2026-11-25 15:06:52 - INFO     - product-interface:334 - ============================================================
+2026-11-25 15:06:52 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 15:06:52 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 15:06:52 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 15:06:52 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 15:06:52 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 15:06:52 - INFO     - product-interface:362 - Console output: True
+2026-11-25 15:06:52 - INFO     - product-interface:367 - ============================================================
+2026-11-25 15:06:52 - INFO     - product-interface.main:954 - Product Interface Supervisor started
+2026-11-25 15:06:52 - INFO     - product-interface.main:958 - Polling interval: 60 seconds
+2026-11-25 15:06:52 - INFO     - product-interface.main:746 - ============================================================
+2026-11-25 15:06:52 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-25 15:06:52 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-25 15:06:53 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-25 15:06:54 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-25 15:06:54 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 15:06:54 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 15:06:54 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-25 15:06:54 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 15:06:54 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 15:06:54 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-25 15:06:54 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 15:06:54 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 15:06:54 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 15:06:54 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-25 15:06:54 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-25 15:06:54 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-25 15:06:54 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-25 15:06:54 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-25 15:06:55 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=60, changed=0, obsolete=0, pending_written=60, pending_removed=0, pending_unchanged=0, running=0, done=0, failed=0
+2026-11-25 15:07:51 - INFO     - product-interface:334 - ============================================================
+2026-11-25 15:07:51 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 15:07:51 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 15:07:51 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 15:07:51 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 15:07:51 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 15:07:51 - INFO     - product-interface:362 - Console output: True
+2026-11-25 15:07:51 - INFO     - product-interface:367 - ============================================================
+2026-11-25 15:07:51 - INFO     - product-interface.main:954 - Product Interface Supervisor started
+2026-11-25 15:07:51 - INFO     - product-interface.main:958 - Polling interval: 60 seconds
+2026-11-25 15:07:51 - INFO     - product-interface.main:746 - ============================================================
+2026-11-25 15:07:51 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-25 15:07:51 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-25 15:07:52 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-25 15:07:54 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-25 15:07:54 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 15:07:54 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 15:07:54 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-25 15:07:54 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 15:07:54 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 15:07:54 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-25 15:07:54 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 15:07:54 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 15:07:54 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 15:07:54 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-25 15:07:54 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-25 15:07:54 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-25 15:07:54 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-25 15:07:54 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-25 15:07:54 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=60, running=0, done=0, failed=0
+2026-11-25 15:09:06 - INFO     - product-interface:334 - ============================================================
+2026-11-25 15:09:06 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 15:09:06 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 15:09:06 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 15:09:06 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 15:09:06 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 15:09:06 - INFO     - product-interface:362 - Console output: True
+2026-11-25 15:09:06 - INFO     - product-interface:367 - ============================================================
+2026-11-25 15:09:06 - INFO     - product-interface.main:954 - Product Interface Supervisor started
+2026-11-25 15:09:06 - INFO     - product-interface.main:958 - Polling interval: 60 seconds
+2026-11-25 15:09:06 - INFO     - product-interface.main:746 - ============================================================
+2026-11-25 15:09:06 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-25 15:09:06 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-25 15:09:06 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-25 15:09:09 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-25 15:09:09 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-25 15:09:09 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 15:09:09 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-25 15:09:09 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 15:09:09 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 15:09:09 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-25 15:09:09 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-25 15:09:09 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-25 15:09:09 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-25 15:09:09 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-25 15:09:09 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-25 15:09:09 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-25 15:09:09 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-25 15:09:09 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-25 15:09:09 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=60, running=0, done=0, failed=0

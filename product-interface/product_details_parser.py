@@ -140,9 +140,34 @@ def parse_product_details(filename):
                         # Die physische Platte muss zur logischen Seite passen.
                         # Bei fehlendem ReferenceName kann die Page-Referenz als
                         # Ersatz dienen, sofern die Platte eine ContentID besitzt.
-                        expected = pages.get(page, {}).get(group)
-                        if not expected or (ref and expected != ref):
-                            raise ValueError(f'{name}: page/plate mismatch {tid}: {group} {ref} != {expected}')
+                        # Pruefen, ob die logische Seite existiert.
+                        if page not in pages:
+                            raise ValueError(
+                                f'{name}: unknown page {page} for {tid}'
+                            )
+
+                        # Erwartete Farbseparation aus der
+                        # logischen Seitenbeschreibung ermitteln.
+                        expected = pages[page].get(group)
+
+                        # Abgewaehlte Farben koennen weiterhin in der
+                        # physischen Druckplattenzuordnung enthalten sein.
+                        # Diese Farben werden fuer das Composite ignoriert.
+                        if expected is None:
+                            LOG.debug(
+                                "Ignoring deselected color: "
+                                "page=%s, trace=%s, color=%s, reference=%s",
+                                page, tid, group, ref
+                            )
+                            continue
+
+                        # Aktive Farbseparationen muessen weiterhin
+                        # mit der Seitenbeschreibung uebereinstimmen.
+                        if ref and expected != ref:
+                            raise ValueError(
+                                f'{name}: page/plate mismatch {tid}: '
+                                f'{group} {ref} != {expected}'
+                            )
                         # Das passende ICC-Profil ermitteln. Ein fehlendes Profil
                         # bleibt leer; widersprüchliche Profile sind ein Fehler.
                         prof = profiles.get((page, group, unit, cp), set())

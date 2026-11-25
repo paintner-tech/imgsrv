@@ -1,0 +1,2869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE JDF SYSTEM "piiprddat.dtd">
+
+<!-- manroland, PII-Interface -->
+
+<JDF>
+<ResourcePool>
+<Resource>
+<ProductInfo>
+<ProductNameStruc PartNumber="1" PartLength="6" />
+<ProductNameStruc PartNumber="2" PartLength="16" />
+<ProductNameStruc PartNumber="3" PartLength="6" />
+<Product>
+  <ProductName><![CDATA[AZ    2024-10-19      AL_5]]></ProductName>
+  <Common>
+    <Order><![CDATA[AZ          ]]></Order>
+    <ProductGroup><![CDATA[Alle                ]]></ProductGroup>
+    <phySectioning SecNumber="1" SecPages="12" />
+    <PageCount>12</PageCount>
+    <totalTargetCopies>72850</totalTargetCopies>
+    <plannedProdBegin>
+      <DateTime>202611241145</DateTime>
+    </plannedProdBegin>
+    <plannedProdEnd>
+      <DateTime>202611241313</DateTime>
+    </plannedProdEnd>
+    <PlateWidthZones>9</PlateWidthZones>
+  </Common>
+  <Page>
+    <seqPageNumber>1</seqPageNumber>
+    <PageName>1     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158337          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158331          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158333          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158335          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>2</seqPageNumber>
+    <PageName>2     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158345          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>3</seqPageNumber>
+    <PageName>3     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158311          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158299          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158303          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158307          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>4</seqPageNumber>
+    <PageName>4     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158327          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158315          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158319          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158323          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>5</seqPageNumber>
+    <PageName>5     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158313          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158301          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158305          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158309          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>6</seqPageNumber>
+    <PageName>6     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158329          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158317          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158321          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158325          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>7</seqPageNumber>
+    <PageName>7     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158328          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158316          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158320          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158324          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>8</seqPageNumber>
+    <PageName>8     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158312          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158300          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158304          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158308          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>9</seqPageNumber>
+    <PageName>9     </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158326          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158314          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158318          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158322          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>10</seqPageNumber>
+    <PageName>10    </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158310          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158298          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158302          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158306          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>11</seqPageNumber>
+    <PageName>11    </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158344          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158338          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158340          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158342          </SeparationReference>
+    </Color>
+  </Page>
+  <Page>
+    <seqPageNumber>12</seqPageNumber>
+    <PageName>12    </PageName>
+    <SectionName>B1  </SectionName>
+    <Color>
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158336          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158330          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158332          </SeparationReference>
+    </Color>
+    <Color>
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+      <ColorRGB R="0" G="0" B="0" />
+    <SeparationReference>158334          </SeparationReference>
+    </Color>
+  </Page>
+  <Press>
+    <PressName><![CDATA[F1]]></PressName>
+    <ProductionType Type="straight" />
+    <TargetCopies>72850</TargetCopies>
+    <plannedProdBegin>
+      <DateTime>202611241145</DateTime>
+    </plannedProdBegin>
+    <plannedProdEnd>
+      <DateTime>202611241313</DateTime>
+    </plannedProdEnd>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>10</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>3</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>8</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>5</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>9</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>1</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>4</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>2</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>7</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>6</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>1</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="C" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>2</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>3</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="M" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>4</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>5</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="Y" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>6</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>12</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>1</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>7</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="no" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>11</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>3</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>2</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="top" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <PlatePosition>
+      <seqPageNumber>2</seqPageNumber>
+      <ColorGroup Group="K" />
+              <PrUnit>1</PrUnit>
+              <PrCouple>8</PrCouple>
+      <PrBlade>4</PrBlade>
+      <InkZoMirr Mirroring="yes" />
+      <CircPlPos Position="bottom" />
+      <ICCProfileName>ISOnewspaper26v4.icc</ICCProfileName>
+    </PlatePosition>
+    <WebLead>      <Web ReelSplicerNumber="1" WebNumber="1">
+        <PrintingLocationList>
+          <PrintingLocation Side="Front">
+              <PrUnit>1</PrUnit>
+              <PrCouple>1</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>1</PrUnit>
+              <PrCouple>2</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Front">
+              <PrUnit>1</PrUnit>
+              <PrCouple>3</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>1</PrUnit>
+              <PrCouple>4</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Front">
+              <PrUnit>1</PrUnit>
+              <PrCouple>5</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>1</PrUnit>
+              <PrCouple>6</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Front">
+              <PrUnit>1</PrUnit>
+              <PrCouple>7</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>1</PrUnit>
+              <PrCouple>8</PrCouple>
+          </PrintingLocation>
+        </PrintingLocationList>
+      </Web>
+      <Web ReelSplicerNumber="2" WebNumber="2">
+        <PrintingLocationList>
+          <PrintingLocation Side="Front">
+              <PrUnit>2</PrUnit>
+              <PrCouple>1</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>2</PrUnit>
+              <PrCouple>2</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Front">
+              <PrUnit>2</PrUnit>
+              <PrCouple>3</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>2</PrUnit>
+              <PrCouple>4</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Front">
+              <PrUnit>2</PrUnit>
+              <PrCouple>5</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>2</PrUnit>
+              <PrCouple>6</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Front">
+              <PrUnit>2</PrUnit>
+              <PrCouple>7</PrCouple>
+          </PrintingLocation>
+          <PrintingLocation Side="Back">
+              <PrUnit>2</PrUnit>
+              <PrCouple>8</PrCouple>
+          </PrintingLocation>
+        </PrintingLocationList>
+      </Web>
+</WebLead>
+    <PlateTraceRelation>      <PTPrintingCouple PrintingUnit="2" PrintingCouple="1" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158298" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158298" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158299" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158299" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158300" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158300" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158301" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158301" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158298" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158298" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158299" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158299" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158300" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158300" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158301" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158301" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="2" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158314" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158314" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158315" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158315" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158316" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158316" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158317" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158317" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158314" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158314" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158315" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158315" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158316" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158316" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158317" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158317" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="3" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158302" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158302" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158303" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158303" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158304" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158304" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158305" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158305" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158302" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158302" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158303" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158303" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158304" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158304" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158305" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158305" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="4" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158318" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158318" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158319" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158319" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158320" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158320" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158321" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158321" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158318" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158318" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158319" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158319" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158320" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158320" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158321" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158321" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="5" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158306" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158306" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158307" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158307" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158308" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158308" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158309" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158309" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158306" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158306" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158307" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158307" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158308" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158308" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158309" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158309" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="6" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158322" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158322" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158323" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158323" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158324" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158324" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158325" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158325" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158322" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158322" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158323" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158323" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158324" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158324" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158325" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158325" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="7" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158310" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158310" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158311" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158311" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158312" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158312" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158313" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158313" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158310" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158310" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158311" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158311" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158312" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158312" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158313" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158313" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>10</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.10.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>3</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.3.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>8</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.8.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>5</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.5.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="2" PrintingCouple="8" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158326" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158326" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158327" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158327" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158328" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158328" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158329" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158329" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158326" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158326" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158327" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158327" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158328" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158328" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158329" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158329" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>9</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.9.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>4</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.4.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>7</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.7.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>6</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.6.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="1" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158330" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158330" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158331" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158331" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158330" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158330" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158331" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158331" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="2" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158338" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158338" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158339" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158338" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158338" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158339" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[CY    ]]></ColorName>
+      <ColorGroup Group="C" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="3" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158332" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158332" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158333" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158333" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158332" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158332" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158333" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158333" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="4" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158340" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158340" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158341" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158340" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158340" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158341" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[MA    ]]></ColorName>
+      <ColorGroup Group="M" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="5" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158334" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158334" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158335" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158335" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158334" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158334" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158335" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158335" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="6" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158342" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158342" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158343" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158342" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158342" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158343" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[YE    ]]></ColorName>
+      <ColorGroup Group="Y" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="7" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158336" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158336" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158337" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158337" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158336" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158336" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158337" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158337" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.0</PTTraceElementIdentification><Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.0</PTTraceElementIdentification><Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>12</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.12.1</PTTraceElementIdentification><Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>1</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.1.1</PTTraceElementIdentification><Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+      <PTPrintingCouple PrintingUnit="1" PrintingCouple="8" >
+        <PTPlateList>          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="510.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158344" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158344" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158345" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158345" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="" />
+              <PTPlateIdentificationPart Type="ContentID" Value="" />
+            </PTPlateIdentification>
+<Rectangle x="0.00" y="0.00" width="350.00" height="510.00" />
+      <ColorGroup Group="-" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158344" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158344" />
+            </PTPlateIdentification>
+<Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+          <PTPlate>
+            <PTPlateIdentification>
+              <PTPlateIdentificationPart Type="ReferenceName" Value="158345" />
+              <PTPlateIdentificationPart Type="ContentID" Value="A2606158345" />
+            </PTPlateIdentification>
+<Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+      <ColorName><![CDATA[TX    ]]></ColorName>
+      <ColorGroup Group="K" />
+          </PTPlate>
+</PTPlateList>
+        <PTTraceList>          <PTTrace TraceIdentification="1" Standard="yes">
+            <PTTraceElementList>              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.0</PTTraceElementIdentification><Rectangle x="-350.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.0</PTTraceElementIdentification><Rectangle x="-700.00" y="510.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>11</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.11.1</PTTraceElementIdentification><Rectangle x="-350.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+              <PTTraceElement PrepareDisplay="yes">
+                <PTTraceElementSeqNum>2</PTTraceElementSeqNum>                <PTTraceElementIdentification>52688.1.2.1</PTTraceElementIdentification><Rectangle x="-700.00" y="0.00" width="350.00" height="510.00" />
+              </PTTraceElement>
+</PTTraceElementList>
+          </PTTrace>
+</PTTraceList>
+      </PTPrintingCouple>
+</PlateTraceRelation>
+  </Press>
+</Product>
+</ProductInfo>
+</Resource>
+</ResourcePool>
+</JDF>
