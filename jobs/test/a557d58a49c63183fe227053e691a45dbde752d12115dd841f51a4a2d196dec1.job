@@ -1,0 +1,37 @@
+{
+  "composites": [
+    "52726.1.10.1.png"
+  ],
+  "job_id": "a557d58a49c63183fe227053e691a45dbde752d12115dd841f51a4a2d196dec1",
+  "schema_version": 1,
+  "separation_count": 4,
+  "separations": {
+    "C": {
+      "content_id": "A2606158548",
+      "icc_profile": "ISOnewspaper26v4.icc",
+      "reference_name": "158548"
+    },
+    "K": {
+      "content_id": "A2606158566",
+      "icc_profile": "ISOnewspaper26v4.icc",
+      "reference_name": "158566"
+    },
+    "M": {
+      "content_id": "A2606158554",
+      "icc_profile": "ISOnewspaper26v4.icc",
+      "reference_name": "158554"
+    },
+    "Y": {
+      "content_id": "A2606158560",
+      "icc_profile": "ISOnewspaper26v4.icc",
+      "reference_name": "158560"
+    }
+  },
+  "sources": [
+    {
+      "page_number": 10,
+      "product_name": "AZ    2024-10-19      BU",
+      "trace_id": "52726.1.10.1"
+    }
+  ]
+}

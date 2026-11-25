@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<JDF><ResourcePool><Resource><Request><DataRequest><InternetAddress>10.28.128.118</InternetAddress><UserName>pecom</UserName><TargetFileName>/pecom/imgsrv/product-interface/in/piiprdlst</TargetFileName></DataRequest><ProdList><MinPlannedProdBegin><DateTime>20261123</DateTime></MinPlannedProdBegin><MaxPlannedProdBegin><DateTime>20261127</DateTime></MaxPlannedProdBegin></ProdList></Request></Resource></ResourcePool></JDF>

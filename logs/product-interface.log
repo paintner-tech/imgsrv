@@ -1,0 +1,556 @@
+2026-11-24 13:13:19 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:13:19 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:13:19 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:13:19 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:13:19 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:13:19 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:13:19 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:13:19 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:13:19 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:13:19 - INFO     - product-interface.main:118 - Local request creation test completed
+2026-11-24 13:20:15 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:20:15 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:20:15 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:20:15 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:20:15 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:20:15 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:20:15 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:20:15 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:20:15 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:20:15 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:20:38 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:20:38 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:20:38 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:20:38 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:20:38 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:20:38 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:20:38 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:20:38 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:20:38 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:20:38 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:22:04 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:22:04 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:22:04 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:22:04 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:22:04 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:22:04 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:22:04 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:22:04 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:22:04 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:22:04 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:26:06 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:26:06 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:26:06 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:26:06 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:26:06 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:26:06 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:26:06 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:26:06 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:26:06 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:26:06 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:26:19 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:26:19 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:26:19 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:26:19 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:26:19 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:26:19 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:26:19 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:26:19 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:26:19 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:26:19 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:29:38 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:29:38 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:29:38 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:29:38 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:29:38 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:29:38 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:29:38 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:29:38 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:29:38 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:29:38 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:36:15 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:36:15 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:36:15 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:36:15 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:36:15 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:36:15 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:36:15 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:36:15 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:36:15 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:36:15 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:37:18 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:37:18 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:37:18 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:37:18 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:37:18 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:37:18 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:37:18 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:37:18 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:37:18 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:37:18 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:40:37 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:40:37 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:40:37 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:40:37 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:40:37 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:40:37 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:40:37 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:40:37 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:40:37 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:40:37 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:44:54 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:44:54 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:44:54 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:44:54 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:44:54 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:44:54 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:44:54 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:44:54 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:44:54 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:44:54 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:47:31 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:47:31 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:47:31 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:47:31 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:47:31 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:47:31 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:47:31 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:47:31 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:47:31 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:47:31 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:50:14 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:50:14 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:50:14 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:50:14 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:50:14 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:50:14 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:50:14 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:50:14 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:50:14 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:50:14 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:53:22 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:53:22 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:53:22 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:53:22 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:53:22 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:53:22 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:53:22 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:53:22 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:53:22 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:53:22 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:53:50 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:53:50 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:53:50 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:53:50 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:53:50 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:53:50 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:53:50 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:53:50 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:53:50 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:53:50 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 13:56:07 - INFO     - product-interface:334 - ============================================================
+2026-11-24 13:56:07 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 13:56:07 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 13:56:07 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 13:56:07 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 13:56:07 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 13:56:07 - INFO     - product-interface:362 - Console output: True
+2026-11-24 13:56:07 - INFO     - product-interface:367 - ============================================================
+2026-11-24 13:56:07 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-24 13:56:07 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-24 14:07:50 - INFO     - product-interface:334 - ============================================================
+2026-11-24 14:07:50 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 14:07:50 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 14:07:50 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 14:07:50 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 14:07:50 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 14:07:50 - INFO     - product-interface:362 - Console output: True
+2026-11-24 14:07:50 - INFO     - product-interface:367 - ============================================================
+2026-11-24 14:07:50 - INFO     - product-interface.main:64 - Starting product list parser test
+2026-11-24 14:07:50 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst
+2026-11-24 14:07:50 - ERROR    - product-interface.main:126 - Product list parser test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_product_list_parser.py", line 67, in main
+    products = parse_product_list(config)
+  File "/pecom/imgsrv/product-interface/product_list_parser.py", line 308, in parse_product_list
+    raise FileNotFoundError(
+        f"Product list not found: {response_file}"
+    )
+FileNotFoundError: Product list not found: /pecom/imgsrv/product-interface/in/piiprdlst
+2026-11-24 14:07:55 - INFO     - product-interface:334 - ============================================================
+2026-11-24 14:07:55 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 14:07:55 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 14:07:55 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 14:07:55 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 14:07:55 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 14:07:55 - INFO     - product-interface:362 - Console output: True
+2026-11-24 14:07:55 - INFO     - product-interface:367 - ============================================================
+2026-11-24 14:07:55 - INFO     - product-interface.main:64 - Starting product list parser test
+2026-11-24 14:07:55 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst
+2026-11-24 14:07:55 - ERROR    - product-interface.main:126 - Product list parser test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_product_list_parser.py", line 67, in main
+    products = parse_product_list(config)
+  File "/pecom/imgsrv/product-interface/product_list_parser.py", line 308, in parse_product_list
+    raise FileNotFoundError(
+        f"Product list not found: {response_file}"
+    )
+FileNotFoundError: Product list not found: /pecom/imgsrv/product-interface/in/piiprdlst
+2026-11-24 14:09:03 - INFO     - product-interface:334 - ============================================================
+2026-11-24 14:09:03 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 14:09:03 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 14:09:03 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 14:09:03 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 14:09:03 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 14:09:03 - INFO     - product-interface:362 - Console output: True
+2026-11-24 14:09:03 - INFO     - product-interface:367 - ============================================================
+2026-11-24 14:09:03 - INFO     - product-interface.main:64 - Starting product list parser test
+2026-11-24 14:09:03 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-24 14:09:03 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-24 14:09:03 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-24 14:09:03 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-24 14:09:03 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-24 14:09:03 - INFO     - product-interface.main:118 - Product list parser test completed successfully
+2026-11-24 14:58:21 - INFO     - product-interface:334 - ============================================================
+2026-11-24 14:58:21 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 14:58:21 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 14:58:21 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 14:58:21 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 14:58:21 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 14:58:21 - INFO     - product-interface:362 - Console output: True
+2026-11-24 14:58:21 - INFO     - product-interface:367 - ============================================================
+2026-11-24 14:58:21 - INFO     - product-interface.main:64 - Starting product list parser test
+2026-11-24 14:58:21 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-24 14:58:21 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-24 14:58:21 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-24 14:58:21 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-24 14:58:21 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-24 14:58:21 - INFO     - product-interface.main:118 - Product list parser test completed successfully
+2026-11-24 15:00:07 - INFO     - product-interface:334 - ============================================================
+2026-11-24 15:00:07 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 15:00:07 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 15:00:07 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 15:00:07 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 15:00:07 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 15:00:07 - INFO     - product-interface:362 - Console output: True
+2026-11-24 15:00:07 - INFO     - product-interface:367 - ============================================================
+2026-11-24 15:00:07 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-24 15:00:07 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-24 15:00:07 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-24 15:00:07 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-24 15:00:07 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      AL_5' | Update: 202611240905
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      BU' | Update: 202611240814
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:114 - Loading product cache: /tmp/tmpsf__kkt4/product_cache.json
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611240905 -> 202611240906
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:114 - Loading product cache: /tmp/tmpsf__kkt4/product_cache.json
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611240905 -> 202611240906
+2026-11-24 15:00:07 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-24 15:00:07 - INFO     - product-interface.main:227 - Product cache test completed successfully
+2026-11-24 15:00:12 - INFO     - product-interface:334 - ============================================================
+2026-11-24 15:00:12 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 15:00:12 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 15:00:12 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 15:00:12 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 15:00:12 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 15:00:12 - INFO     - product-interface:362 - Console output: True
+2026-11-24 15:00:12 - INFO     - product-interface:367 - ============================================================
+2026-11-24 15:00:12 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-24 15:00:12 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-24 15:00:12 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-24 15:00:12 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-24 15:00:12 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      AL_5' | Update: 202611240905
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:442 - Product marked as processed: 'AZ    2024-10-19      BU' | Update: 202611240814
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:114 - Loading product cache: /tmp/tmp53m3h2s2/product_cache.json
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611240905 -> 202611240906
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:114 - Loading product cache: /tmp/tmp53m3h2s2/product_cache.json
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:254 - Changed product detected: 'AZ    2024-10-19      AL_5' | 202611240905 -> 202611240906
+2026-11-24 15:00:12 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=1, unchanged=1
+2026-11-24 15:00:12 - INFO     - product-interface.main:227 - Product cache test completed successfully
+2026-11-24 15:11:26 - INFO     - product-interface:334 - ============================================================
+2026-11-24 15:11:26 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 15:11:26 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 15:11:26 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 15:11:26 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 15:11:26 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 15:11:26 - INFO     - product-interface:362 - Console output: True
+2026-11-24 15:11:26 - INFO     - product-interface:367 - ============================================================
+2026-11-24 15:11:26 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-24 15:11:26 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-24 15:11:26 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-24 15:11:26 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-24 15:11:26 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-24 15:11:26 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-24 15:11:26 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-24 15:11:26 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-24 15:11:26 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-24 15:11:26 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-24 15:11:26 - ERROR    - product-interface.main:254 - Product detail request test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_product_details_request.py", line 180, in main
+    create_product_detail_request(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+        product
+        ^^^^^^^
+    )
+    ^
+  File "/pecom/imgsrv/product-interface/request_sender.py", line 713, in create_product_detail_request
+    document = minidom.parse(str(template_file))
+  File "/usr/lib/python3.14/xml/dom/minidom.py", line 2001, in parse
+    return expatbuilder.parse(file)
+           ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/xml/dom/expatbuilder.py", line 907, in parse
+    with open(file, 'rb') as fp:
+         ~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/pecom/imgsrv/product-interface/out/pii001.pif'
+2026-11-24 15:12:30 - INFO     - product-interface:334 - ============================================================
+2026-11-24 15:12:30 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-24 15:12:30 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-24 15:12:30 - INFO     - product-interface:347 - Log level: INFO
+2026-11-24 15:12:30 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-24 15:12:30 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-24 15:12:30 - INFO     - product-interface:362 - Console output: True
+2026-11-24 15:12:30 - INFO     - product-interface:367 - ============================================================
+2026-11-24 15:12:30 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-24 15:12:30 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-24 15:12:30 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-24 15:12:30 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-24 15:12:30 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-24 15:12:30 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-24 15:12:30 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-24 15:12:30 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-24 15:12:30 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-24 15:12:30 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-24 15:12:30 - INFO     - product-interface.main:246 - Product detail request test completed
+2026-11-25 07:04:13 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:04:13 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:04:13 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:04:13 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:04:13 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:04:13 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:04:13 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:04:13 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:04:13 - INFO     - product-interface.main:64 - Starting product list parser test
+2026-11-25 07:04:13 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:04:13 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-25 07:04:13 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 07:04:13 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 07:04:13 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-25 07:04:13 - INFO     - product-interface.main:118 - Product list parser test completed successfully
+2026-11-25 07:04:38 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:04:38 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:04:38 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:04:38 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:04:38 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:04:38 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:04:38 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:04:38 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:04:38 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-25 07:04:38 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:04:38 - INFO     - product-interface.product_list_parser:353 - Product records found: 2
+2026-11-25 07:04:38 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 07:04:38 - INFO     - product-interface.product_list_parser:389 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 07:04:38 - INFO     - product-interface.product_list_parser:399 - Product list successfully parsed: 2 products
+2026-11-25 07:04:38 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-25 07:04:38 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-25 07:04:38 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-25 07:04:38 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-25 07:04:38 - INFO     - product-interface.main:246 - Product detail request test completed
+2026-11-25 07:06:20 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:06:20 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:06:20 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:06:20 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:06:20 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:06:20 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:06:20 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:06:20 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:06:20 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 07:06:20 - INFO     - product-interface.main:118 - Local request creation test completed
+2026-11-25 07:06:39 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:06:39 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:06:39 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:06:39 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:06:39 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:06:39 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:06:39 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:06:39 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:06:39 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 07:06:39 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-25 07:08:19 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:08:19 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:08:19 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:08:19 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:08:19 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:08:19 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:08:19 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:08:19 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:08:19 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-25 07:08:19 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:08:19 - ERROR    - product-interface.main:254 - Product detail request test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_product_details_request.py", line 113, in main
+    products = parse_product_list(config)
+  File "/pecom/imgsrv/product-interface/product_list_parser.py", line 308, in parse_product_list
+    raise FileNotFoundError(
+        f"Product list not found: {response_file}"
+    )
+FileNotFoundError: Product list not found: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:09:48 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:09:48 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:09:48 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:09:48 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:09:48 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:09:48 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:09:48 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:09:48 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:09:48 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 07:09:48 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-25 07:09:59 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:09:59 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:09:59 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:09:59 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:09:59 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:09:59 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:09:59 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:09:59 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:09:59 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-25 07:09:59 - INFO     - product-interface.product_list_parser:300 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst
+2026-11-25 07:09:59 - ERROR    - product-interface.main:254 - Product detail request test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_product_details_request.py", line 113, in main
+    products = parse_product_list(config)
+  File "/pecom/imgsrv/product-interface/product_list_parser.py", line 308, in parse_product_list
+    raise FileNotFoundError(
+        f"Product list not found: {response_file}"
+    )
+FileNotFoundError: Product list not found: /pecom/imgsrv/product-interface/in/piiprdlst
+2026-11-25 07:19:15 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:19:15 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:19:15 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:19:15 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:19:15 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:19:15 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:19:15 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:19:15 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:19:15 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-25 07:19:15 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:19:15 - ERROR    - product-interface.main:254 - Product detail request test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_product_details_request.py", line 113, in main
+    products = parse_product_list(config)
+  File "/pecom/imgsrv/product-interface/product_list_parser.py", line 316, in parse_product_list
+    raise FileNotFoundError(
+        f"Product list not found: {response_file}"
+    )
+FileNotFoundError: Product list not found: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:19:31 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:19:31 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:19:31 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:19:31 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:19:31 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:19:31 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:19:31 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:19:31 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:19:31 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 07:19:31 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-25 07:19:31 - ERROR    - product-interface.main:142 - Request sender test failed
+Traceback (most recent call last):
+  File "/pecom/imgsrv/product-interface/test_request_sender.py", line 128, in main
+    if send_product_list_request(config):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/pecom/imgsrv/product-interface/request_sender.py", line 454, in send_product_list_request
+    request_file, sync_file = create_product_list_request(
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config
+        ^^^^^^
+    )
+    ^
+  File "/pecom/imgsrv/product-interface/request_sender.py", line 206, in create_product_list_request
+    str(target_file),
+        ^^^^^^^^^^^
+NameError: name 'target_file' is not defined. Did you mean: 'target_filename'?
+2026-11-25 07:20:04 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:20:04 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:20:04 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:20:04 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:20:04 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:20:04 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:20:04 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:20:04 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:20:04 - INFO     - product-interface.main:90 - Starting request sender test
+2026-11-25 07:20:04 - INFO     - product-interface.main:126 - Starting request transfer test
+2026-11-25 07:20:19 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:20:19 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:20:19 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:20:19 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:20:19 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:20:19 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:20:19 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:20:19 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:20:19 - INFO     - product-interface.main:105 - Starting product detail request test
+2026-11-25 07:20:19 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:20:19 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 07:20:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 07:20:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 07:20:19 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 07:20:19 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-25 07:20:19 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-25 07:20:19 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-25 07:20:19 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-25 07:20:19 - INFO     - product-interface.main:246 - Product detail request test completed
+2026-11-25 07:25:56 - INFO     - product-interface:334 - ============================================================
+2026-11-25 07:25:56 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 07:25:56 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 07:25:56 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 07:25:56 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 07:25:56 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 07:25:56 - INFO     - product-interface:362 - Console output: True
+2026-11-25 07:25:56 - INFO     - product-interface:367 - ============================================================
+2026-11-25 07:25:56 - INFO     - product-interface.main:112 - Starting product detail request test
+2026-11-25 07:25:56 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 07:25:56 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 07:25:56 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 07:25:56 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 07:25:56 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 07:25:56 - INFO     - product-interface.product_cache:108 - No existing product cache found
+2026-11-25 07:25:56 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      AL_5'
+2026-11-25 07:25:56 - INFO     - product-interface.product_cache:229 - New product detected: 'AZ    2024-10-19      BU'
+2026-11-25 07:25:56 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=2, changed=0, unchanged=0
+2026-11-25 07:25:56 - INFO     - product-interface.main:229 - Sending product detail request: 'AZ    2024-10-19      AL_5'
+2026-11-25 07:25:57 - INFO     - product-interface.main:229 - Sending product detail request: 'AZ    2024-10-19      BU'
+2026-11-25 07:26:02 - INFO     - product-interface.main:243 - Transfer completed: total=2, successful=2, failed=0
+2026-11-25 07:26:02 - INFO     - product-interface.main:295 - Product detail request test completed
+2026-11-25 08:21:29 - INFO     - product-interface:334 - ============================================================
+2026-11-25 08:21:29 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-25 08:21:29 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-25 08:21:29 - INFO     - product-interface:347 - Log level: INFO
+2026-11-25 08:21:29 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-25 08:21:29 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-25 08:21:29 - INFO     - product-interface:362 - Console output: True
+2026-11-25 08:21:29 - INFO     - product-interface:367 - ============================================================
+2026-11-25 08:21:29 - INFO     - product-interface.main:64 - Starting product list parser test
+2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/product-interface/in/piiprdlst.pif
+2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611240905
+2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-25 08:21:29 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-25 08:21:29 - INFO     - product-interface.main:118 - Product list parser test completed successfully

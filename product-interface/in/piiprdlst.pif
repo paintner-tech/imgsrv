@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE JDF SYSTEM "piiprdlst.dtd">
+
+<!-- manroland, PII-Interface -->
+
+<JDF>
+<ResourcePool>
+<Resource>
+<ProductList>
+<ProductNameStruc PartNumber="1" PartLength="6" />
+<ProductNameStruc PartNumber="2" PartLength="16" />
+<ProductNameStruc PartNumber="3" PartLength="6" />
+<ProdSelDat>
+  <ProductName><![CDATA[AZ    2024-10-19      AL_5]]></ProductName>
+    <Order><![CDATA[AZ          ]]></Order>
+    <ProductGroup><![CDATA[Alle                ]]></ProductGroup>
+    <ProdUpdate>
+      <DateTime>202611240905</DateTime>
+    </ProdUpdate>
+</ProdSelDat>
+<ProdSelDat>
+  <ProductName><![CDATA[AZ    2024-10-19      BU]]></ProductName>
+    <Order><![CDATA[AZ          ]]></Order>
+    <ProductGroup><![CDATA[Alle                ]]></ProductGroup>
+    <ProdUpdate>
+      <DateTime>202611240814</DateTime>
+    </ProdUpdate>
+</ProdSelDat>
+</ProductList>
+</Resource>
+</ResourcePool>
+</JDF>

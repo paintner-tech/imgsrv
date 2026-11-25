@@ -1,0 +1,111 @@
+# =============================================================================
+# ImageServer - Product Interface Configuration
+# =============================================================================
+
+# =============================================================================
+# Logging Configuration
+# =============================================================================
+
+logging:
+
+  # Verzeichnis der Logdateien.
+  directory: "/pecom/imgsrv/logs"
+  # Gemeinsame Logdatei des Product Interface.
+  filename: "product-interface.log"
+  # Minimales Loglevel.
+  level: "INFO"
+  # Maximale Groesse einer Logdatei in MiB.
+  max_size_mb: 10
+  # Anzahl der zusaetzlich aufbewahrten Logdateien.
+  backup_count: 5
+  # Zusaetzliche Ausgabe der Logmeldungen auf der Konsole.
+  console_output: true
+
+local:
+  ip: "10.28.128.118"
+  username: "pecom"
+  response_directory: "/pecom/imgsrv/product-interface/in"
+
+remote:
+  ip: "10.28.128.48"
+  username: "pecom"
+  request_directory: "/pif/pii/t_proof"
+  ssh_port: 22
+  ssh_timeout: 10
+  transfer_timeout: 30
+
+directories:
+  templates: "/pecom/imgsrv/product-interface/out"
+  temporary: "/pecom/imgsrv/product-interface/tmp"
+
+product_list:
+  request_file: "pii000.pif"
+  response_file: "piiprdlst.pif"
+
+  # Production period relative to current date
+  days_backward: 2
+  days_forward: 2
+
+polling:
+  interval_seconds: 60
+  response_timeout_seconds: 30
+
+# =============================================================================
+# PRODUCT CACHE
+# =============================================================================
+# Speichert den letzten erfolgreich verarbeiteten Stand
+# der einzelnen Produkte.
+#
+# Dadurch werden Produktdetails nur fuer neue oder
+# geaenderte Produkte angefordert.
+# =============================================================================
+
+product_cache:
+
+  # Verzeichnis und Dateiname des persistenten Produktcaches.
+  filename: "/pecom/imgsrv/product-interface/data/product_cache.json"
+
+# =============================================================================
+# PRODUCT DETAILS REQUEST
+# =============================================================================
+# Einstellungen fuer die Anforderung einzelner Produktdetails.
+#
+# Fuer jedes Produkt werden individuelle Anforderungs-
+# und Antwortdateien erzeugt.
+# =============================================================================
+
+product_details:
+
+  # Originalvorlage fuer Produktdetailanforderungen.
+  template_file: "pii001.pif"
+
+  # Praefix fuer die erzeugten Anforderungsdateien.
+  request_prefix: "piireq"
+
+  # Praefix fuer die erwarteten Antwortdateien.
+  response_prefix: "piians"
+
+  # Dateiendung der Anforderungs- und Antwortdateien.
+  file_extension: ".pif"
+
+#
+# Identische Bildrezepte werden zu einem Auftrag zusammengefasst.
+# Ein Auftrag kann mehrere Composite-Dateinamen enthalten.
+#
+# Das Product Interface ist ausschliesslich fuer die Erzeugung
+# der Auftragsdateien verantwortlich.
+#
+# Die Verarbeitung und Verwaltung der Auftraege erfolgt
+# unabhaengig davon durch den Imageserver.
+# =============================================================================
+
+job_creation:
+
+  # Automatische Erzeugung von Bildauftraegen aktivieren.
+  enabled: true
+
+  # Zielverzeichnis fuer neu erzeugte Bildauftraege.
+  #
+  # Dieses Verzeichnis muss mit dem Parameter jobs.pending
+  # in der imageserver.yaml uebereinstimmen.
+  output_directory: "/pecom/imgsrv/jobs/pending"

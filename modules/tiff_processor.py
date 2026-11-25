@@ -1,110 +1,131 @@
 #!/usr/bin/env python3
-"""Wandelt 1-Bit-TIFF-Separationen mit dem Join-Algorithmus in PNG um.
-
-Der Algorithmus orientiert sich an rgbTiffJoin2GrayNew() aus rgb.c.
-Die Quelldatei wird niemals geloescht oder veraendert.
-"""
-
+# =============================================================================
+# TIFF PROCESSOR - Imageserver V2
+# =============================================================================
+# Entrastert 1-Bit-TIFFs mit dem bisherigen Join-Verfahren zu neutralen
+# Graustufen-PNGs. Dateinamen bleiben bis auf die Endung unveraendert.
+# Keine Abhaengigkeit von Auftraegen oder Produktinformationen.
+# ICC-Druckprofile werden erst beim CMYK-Composite angewendet: Eine einzelne
+# Separation enthaelt keine Information ueber die anderen Farbkanäle.
+# Originaldateien werden weder geloescht noch verschoben. Das ist Aufgabe
+# des Folder Watchers. Die PNG-Datei wird erst nach fertiger Ausgabe sichtbar.
+# =============================================================================
 import argparse
+import logging
 import math
 import os
+import sys
+import tempfile
+import time
 from pathlib import Path
 
 import numpy as np
 from PIL import Image
-# Unsere Druck-TIFFs können mehrere hundert Millionen Pixel haben.
-# Die Dateien stammen aus einer kontrollierten Produktionsumgebung.
-# Deshalb deaktivieren wir die Pillow-Pixelbegrenzung.
+
+if __package__:
+    from .config_loader import load_config
+else:
+    from config_loader import load_config
+
+# Kontrollierte Produktionsdaten: sehr grosse Druck-TIFFs sind normal.
+# Achtung: Pillow kann trotzdem das gesamte Eingangsbild im RAM dekodieren.
 Image.MAX_IMAGE_PIXELS = None
 
-try:
-    from modules.config_loader import load_config
-    from modules.library.logger import setup_rotating_logger
-except ModuleNotFoundError as error:
-    if error.name != 'modules':
-        raise
-    from config_loader import load_config
-    from library.logger import setup_rotating_logger
 
-
-# Liest Aufloesung und Bildgroesse einer TIFF-Datei.
-# Rueckgabe: (Breite, Hoehe, DPI) als Zahlen.
+# -----------------------------------------------------------------------------
+# FUNKTION: read_tiff_info
+# Aufgabe: Dateiformat, Bittiefe, Abmessungen und Aufloesung kontrollieren.
+# Parameter: filename - Pfad der Eingabedatei (str oder Path).
+# Rueckgabe: Tupel (Breite, Hoehe, DPI in X-Richtung).
+# Fehler: OSError bei Lesefehlern, ValueError bei ungueltigen Bilddaten.
+# -----------------------------------------------------------------------------
 def read_tiff_info(filename):
     with Image.open(filename) as image:
         if image.format != 'TIFF':
-            raise ValueError('Die Eingabedatei ist keine TIFF-Datei.')
+            raise ValueError('Input is not a TIFF file.')
         if image.mode != '1':
-            raise ValueError(f'Nur 1-Bit-TIFF wird unterstuetzt, gefunden: {image.mode}')
+            raise ValueError(f'Only 1-bit TIFF supported, found {image.mode}')
         width, height = image.size
         dpi_value = image.info.get('dpi', (0, 0))
         dpi = float(dpi_value[0] if isinstance(dpi_value, (tuple, list)) else dpi_value)
         if dpi <= 0 or not math.isfinite(dpi):
-            raise ValueError('TIFF hat keine gueltige DPI-Angabe.')
+            raise ValueError('TIFF has no valid DPI information.')
         return width, height, dpi
 
 
-# Waehlt den zum TIFF-DPI-Wert passenden Parametersatz aus der INI.
-# Rueckgabe: (Faktor, Algorithmus, Join) als Integer.
+# -----------------------------------------------------------------------------
+# FUNKTION: select_sampling_parameters
+# Aufgabe: Naechsten YAML-DPI-Parametersatz innerhalb der Toleranz auswaehlen.
+# Parameter: settings - Konfigurationsdictionary; dpi - TIFF-Aufloesung.
+# Rueckgabe: Tupel (factor, algorithm, join) als Integer.
+# Fehler: ValueError bei fehlendem oder nicht unterstuetztem Parametersatz.
+# -----------------------------------------------------------------------------
 def select_sampling_parameters(settings, dpi):
     section = settings['processing']
-    tolerance = float(section.get('dpi_tolerance', '100'))
-    candidates = []
-    for key, value in section.items():
-        if not key.startswith('dpi_config_'):
-            continue
-        parts = [part.strip() for part in value.split(',')]
-        if len(parts) != 7:
-            raise ValueError(f'Falsches Format bei [processing] {key}: 7 Werte erwartet')
-        target_dpi = float(parts[0])
-        factor, algorithm, join = map(int, parts[1:4])
-        candidates.append((abs(dpi - target_dpi), target_dpi, factor, algorithm, join))
+    tolerance = float(section['dpi_tolerance'])
+    # Bei gleicher Abweichung wird wie zuvor der kleinere DPI-Wert bevorzugt.
+    candidates = [(abs(dpi - float(item['dpi'])), float(item['dpi']),
+                   item['factor'], item['algorithm'], item['join'])
+                  for item in section['dpi_configs']]
     if not candidates:
-        raise ValueError('Keine dpi_config_N unter [processing] gefunden.')
+        raise ValueError('No DPI configurations found.')
     difference, target_dpi, factor, algorithm, join = min(candidates)
     if difference > tolerance:
-        raise ValueError(f'Keine passende DPI-Konfiguration: TIFF={dpi:g}, naechster Wert={target_dpi:g}, Toleranz={tolerance:g}')
+        raise ValueError(f'No matching DPI configuration: TIFF={dpi:g}, nearest={target_dpi:g}, tolerance={tolerance:g}')
     if factor < 8 or factor % 8 != 0:
-        raise ValueError(f'Ungueltiger Faktor {factor}: Vielfaches von 8 erforderlich.')
+        raise ValueError(f'Invalid factor {factor}: multiple of 8 required.')
     if join < 0 or join > min(8, factor // 2):
-        raise ValueError(f'Ungueltiger Join-Wert: {join}')
+        raise ValueError(f'Invalid join value: {join}')
     if algorithm not in (0, 2):
-        raise ValueError(f'Algorithmus {algorithm} ist noch nicht implementiert.')
+        raise ValueError(f'Unsupported algorithm: {algorithm}')
     return factor, algorithm, join
 
 
-# Berechnet die Schwarzpixelzahlen fuer einen Ausschnitt eines Blocks.
-# Rueckgabe: Ein Integer-Array mit einer Zahl pro Ausgabespalte.
+# -----------------------------------------------------------------------------
+# FUNKTION: count_region
+# Aufgabe: Schwarzpixel in einem rechteckigen Teil jedes Ausgabeblocks zaehlen.
+# Parameter: tiles - Array (Block, Zeile, Spalte); row_start, row_end -
+#   Zeilengrenzen; col_start, col_end - Spaltengrenzen (Ende exklusiv).
+# Rueckgabe: int64-Array mit einer Schwarzpixelanzahl pro Block.
+# -----------------------------------------------------------------------------
 def count_region(tiles, row_start, row_end, col_start, col_end):
     return tiles[:, row_start:row_end, col_start:col_end].sum(axis=(1, 2), dtype=np.int64)
 
 
-# Entrastert ein 1-Bit-TIFF blockweise nach dem alten Join-Verfahren.
-# Rueckgabe: Ein Pillow-Graustufenbild mit Weiss=255 und Schwarz=0.
+# -----------------------------------------------------------------------------
+# FUNKTION: join_to_grayscale
+# Aufgabe: Bisherige blockweise Entrasterung inklusive Join-Verteilung.
+# Parameter: filename - TIFF-Pfad; factor - Kantenlaenge eines Rasterblocks;
+#   join - Breite des Randbereichs (0 deaktiviert die Verteilung).
+# Rueckgabe: Pillow-Bild im Modus L, Weiss=255, Schwarz=0.
+# Fehler: ValueError bei falschem Bildmodus, OSError bei Lesefehlern.
+# -----------------------------------------------------------------------------
 def join_to_grayscale(filename, factor, join):
     with Image.open(filename) as image:
         if image.mode != '1':
-            raise ValueError('Die Verarbeitung erwartet ein 1-Bit-TIFF.')
+            raise ValueError('Processing requires a 1-bit TIFF.')
         width, height = image.size
+        # Aufrunden: auch unvollstaendige Randbloecke bleiben erhalten.
         out_width = (width + factor - 1) // factor
         out_height = (height + factor - 1) // factor
         density = np.zeros((out_height, out_width), dtype=np.int64)
         area = factor * factor
-
         for row in range(out_height):
             y = row * factor
-            # Nur einen Streifen von factor Zeilen gleichzeitig bearbeiten.
+            # NumPy verarbeitet nur einen Streifen gleichzeitig. Fehlende
+            # Randpixel werden wie im bisherigen Algorithmus weiss aufgefuellt.
             strip = np.asarray(image.crop((0, y, width, min(y + factor, height))).convert('L'))
             black = (strip == 0).astype(np.uint8)
             padded = np.zeros((factor, out_width * factor), dtype=np.uint8)
             padded[:black.shape[0], :width] = black
             tiles = padded.reshape(factor, out_width, factor).transpose(1, 0, 2)
-
+            # Grunddichte entspricht dem Anteil schwarzer Rasterpixel.
             total = count_region(tiles, 0, factor, 0, factor)
             density[row] += (total * 255) // area
             if join == 0:
                 continue
-
-            # Genau wie im C-Code: 2x Seitenstreifen + 1x Eckbereiche.
+            # Eckbereiche und Seitenstreifen getrennt zaehlen. Die Gewichte
+            # bleiben exakt wie in der bisherigen Python-Implementierung.
             tl = count_region(tiles, 0, join, 0, join)
             tr = count_region(tiles, 0, join, factor - join, factor)
             bl = count_region(tiles, factor - join, factor, 0, join)
@@ -113,12 +134,12 @@ def join_to_grayscale(filename, factor, join):
             bottom = count_region(tiles, factor - join, factor, join, factor - join)
             left = count_region(tiles, join, factor - join, 0, join)
             right = count_region(tiles, join, factor - join, factor - join, factor)
-
             transfer_top = ((2 * top + tl + tr) * 255) // (4 * area)
             transfer_bottom = ((2 * bottom + bl + br) * 255) // (4 * area)
             transfer_left = ((2 * left + tl + bl) * 255) // (4 * area)
             transfer_right = ((2 * right + tr + br) * 255) // (4 * area)
-
+            # Dichte nur an existierende Nachbarbloecke abgeben. Am Bildrand
+            # gibt es keinen Nachbarn; dort bleibt der Anteil im eigenen Block.
             if row > 0:
                 density[row - 1] += transfer_top
                 density[row] -= transfer_top
@@ -129,60 +150,93 @@ def join_to_grayscale(filename, factor, join):
             density[row, 1:] += transfer_right[:-1]
             density[row, 1:] -= transfer_left[1:]
             density[row, :-1] -= transfer_right[:-1]
-
-        # Das Original rechnet in unsigned-char-Pixeln (Modulo 256).
-        # Aus den internen Dichtewerten werden normale PNG-Grauwerte.
+        # Modulo 256 bewusst unveraendert: entspricht dem bisherigen Verhalten
+        # der unsigned-char-Arithmetik. Keine neue Tonwertkorrektur anwenden.
         gray = 255 - (density % 256).astype(np.uint8)
-        return Image.fromarray(gray, mode='L')
+        return Image.fromarray(gray)
 
 
-# Erzeugt fuer eine TIFF-Separation eine PNG-Datei mit atomarem Umbenennen.
-# Rueckgabe: Vollstaendiger Pfad der erzeugten PNG-Datei (Path).
+# -----------------------------------------------------------------------------
+# FUNKTION: convert_tiff_to_png
+# Aufgabe: TIFF umrechnen und fertiges PNG atomar veroeffentlichen.
+# Parameter: tiff_file - Eingabepfad; config - geladene ImageServerConfig;
+#   logger - Logger des aufrufenden Moduls.
+# Rueckgabe: Absoluter Pfad zum fertigen PNG (Path).
+# Fehler: Datei-, Konfigurations- und Bildfehler werden an den Aufrufer gegeben.
+# -----------------------------------------------------------------------------
 def convert_tiff_to_png(tiff_file, config, logger):
+    start = time.monotonic()
     tiff_file = Path(tiff_file).resolve()
     if not tiff_file.is_file():
         raise FileNotFoundError(tiff_file)
+    before = tiff_file.stat()
     width, height, dpi = read_tiff_info(tiff_file)
     factor, algorithm, join = select_sampling_parameters(config.settings, dpi)
     if algorithm == 0:
         join = 0
-    logger.info('TIFF: %s, %dx%d, %.2f dpi, Faktor=%d, Algorithmus=%d, Join=%d',
-                tiff_file.name, width, height, dpi, factor, algorithm, join)
+    logger.info('TIFF: %s, %dx%d, %.2f dpi, factor=%d, algorithm=%d, join=%d', tiff_file, width, height, dpi, factor, algorithm, join)
     output_dir = config.paths.separation_png
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / (tiff_file.stem + '.png')
-    temp_file = output_dir / (output_file.name + f'.{os.getpid()}.tmp')
-
+    # Eindeutiger temporaerer Name auch bei mehreren Threads/Prozessen.
+    # Gleicher Ordner garantiert atomaren Austausch auf demselben Dateisystem.
+    fd, name = tempfile.mkstemp(prefix='.' + output_file.name + '.', suffix='.tmp', dir=output_dir)
+    temp_file = Path(name)
     try:
-        image = join_to_grayscale(tiff_file, factor, join)
-        output_dpi = dpi * (image.width / width + image.height / height) / 2
-        image.save(temp_file, format='PNG', dpi=(output_dpi, output_dpi))
+        with os.fdopen(fd, 'wb') as stream:
+            with join_to_grayscale(tiff_file, factor, join) as image:
+                output_dpi = dpi * (image.width / width + image.height / height) / 2
+                # Keine CMYK-ICC-Daten in ein neutrales Graustufen-PNG einbetten.
+                image.save(stream, format='PNG', dpi=(output_dpi, output_dpi))
+                output_size = image.size
+            stream.flush()
+            os.fsync(stream.fileno())
+        # Wenn sich die Quelle waehrend der Umrechnung aendert, das Ergebnis
+        # verwerfen. Der Watcher kann spaeter einen neuen Versuch starten.
+        after = tiff_file.stat()
+        if (before.st_dev, before.st_ino, before.st_size, before.st_mtime_ns, before.st_ctime_ns) != (after.st_dev, after.st_ino, after.st_size, after.st_mtime_ns, after.st_ctime_ns):
+            raise RuntimeError(f'TIFF changed during conversion: {tiff_file}')
+        # mkstemp legt Dateien mit 0600 an. Fuer den PNG-Austausch mit anderen
+        # lokalen Diensten die bisher ueblichen Leserechte setzen.
+        os.chmod(temp_file, 0o644)
         os.replace(temp_file, output_file)
-        logger.info('PNG geschrieben: %s (%dx%d)', output_file, image.width, image.height)
+        logger.info('PNG written: %s (%dx%d) in %.2f s', output_file, *output_size, time.monotonic() - start)
         return output_file
     finally:
         temp_file.unlink(missing_ok=True)
 
 
-# Liest die Konfiguration und verarbeitet genau eine angegebene TIFF-Datei.
-# Rueckgabe: 0 bei Erfolg oder 1 bei einem Fehler.
+# -----------------------------------------------------------------------------
+# FUNKTION: main
+# Aufgabe: Einzelne TIFF-Datei mit der YAML-Konfiguration umrechnen.
+# Parameter: Keine; Kommandozeilenargumente aus sys.argv.
+# Rueckgabe: Exit-Code 0 bei Erfolg, 1 bei Fehler.
+# -----------------------------------------------------------------------------
 def main():
-    parser = argparse.ArgumentParser(description='TIFF-Separation in Graustufen-PNG umwandeln')
-    parser.add_argument('tiff_file', help='Pfad zu einer 1-Bit-TIFF-Datei')
-    parser.add_argument('--config', help='Alternativer Pfad zur imageserver.ini')
+    from logging.handlers import RotatingFileHandler
+    parser = argparse.ArgumentParser(description='Convert 1-bit TIFF to grayscale PNG')
+    parser.add_argument('tiff_file')
+    parser.add_argument('--config', help='Alternative imageserver.yaml')
     args = parser.parse_args()
     try:
         config = load_config(args.config) if args.config else load_config()
-        log_path = config.log_files['tiff_processor']
-        logger = setup_rotating_logger('tiff_processor', log_path.parent, log_path.name)
+        path = config.log_files['tiff_processor']
+        path.parent.mkdir(parents=True, exist_ok=True)
+        settings = config.settings['logging']
+        logger = logging.getLogger('tiff_processor')
         logger.setLevel(config.log_level)
-        output_file = convert_tiff_to_png(args.tiff_file, config, logger)
-        print(f'Erstellt: {output_file}')
+        handler = RotatingFileHandler(path, maxBytes=settings['max_size_mb'] * 1024 * 1024, backupCount=settings['backup_count'], encoding='utf-8')
+        handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+        logger.addHandler(handler)
+        if settings['console_output']:
+            logger.addHandler(logging.StreamHandler())
+        output = convert_tiff_to_png(args.tiff_file, config, logger)
+        print(f'Created: {output}')
         return 0
     except Exception as error:
         if 'logger' in locals():
-            logger.exception('TIFF-Verarbeitung fehlgeschlagen: %s', error)
-        print(f'FEHLER: {error}')
+            logger.exception('TIFF conversion failed')
+        print(f'ERROR: {error}', file=sys.stderr)
         return 1
 
 

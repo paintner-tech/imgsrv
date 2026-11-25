@@ -1,0 +1,383 @@
+# =============================================================================
+# ImageServer V2 - Configuration
+# =============================================================================
+#
+# Zentrale Konfiguration fuer:
+#
+#   - Steuerung des Imageservers durch den Supervisor
+#   - Ueberwachung eingehender TIFF-Dateien
+#   - Umrechnung von TIFF-Dateien in PNG-Separationen
+#   - Verwaltung und Verarbeitung von Bildauftraegen
+#   - Erzeugung von Composite-PNGs
+#   - Automatische Bereinigung alter Dateien
+#   - Logging der einzelnen Imageserver-Module
+#
+# Die Kommunikation mit dem Produktserver wird ausschliesslich
+# in der product-interface.yaml konfiguriert.
+#
+# Alle relativen Pfade beziehen sich auf server.root_dir.
+# Die Dateinamen unter logging.files beziehen sich dagegen
+# auf das Verzeichnis logging.directory.
+# =============================================================================
+
+
+# =============================================================================
+# SERVER
+# =============================================================================
+
+server:
+
+  # Hauptverzeichnis des Imageservers.
+  root_dir: "/pecom/imgsrv"
+
+
+# =============================================================================
+# LOGGING
+# =============================================================================
+
+logging:
+
+  # Verzeichnis fuer alle Imageserver-Logdateien.
+  directory: "/pecom/imgsrv/logs"
+
+  # Minimales Loglevel:
+  # DEBUG, INFO, WARNING, ERROR, CRITICAL.
+  level: "DEBUG"
+
+  # Maximale Groesse einer Logdatei in MiB.
+  max_size_mb: 10
+
+  # Anzahl der zusaetzlich aufbewahrten Logdateien.
+  backup_count: 5
+
+  # Logmeldungen zusaetzlich auf der Konsole ausgeben.
+  console_output: true
+
+  # Separate Logdateien fuer die einzelnen Module.
+  # Die Dateinamen beziehen sich auf logging.directory.
+
+  files:
+
+    config_loader: "config_loader.log"
+    imageserver: "imageserver.log"
+    supervisor: "supervisor.log"
+    folder_watcher: "folder_watcher.log"
+    tiff_processor: "tiff_processor.log"
+    job_manager: "job_manager.log"
+    composite: "composite.log"
+    cleanup: "cleanup.log"
+
+
+# =============================================================================
+# DIRECTORIES
+# =============================================================================
+#
+# Alle relativen Verzeichnispfade beziehen sich auf server.root_dir.
+# Es koennen alternativ auch absolute Pfade angegeben werden.
+# =============================================================================
+
+paths:
+
+  # Eingangsverzeichnis fuer neue TIFF-Dateien.
+  tiff_in: "tiffs-in"
+
+  # Archiv fuer erfolgreich umgerechnete TIFF-Dateien.
+  tiff_done: "tiffs-done"
+
+  # Verzeichnis fuer fehlerhafte TIFF-Dateien, die nicht
+  # erfolgreich verarbeitet werden konnten.
+  tiff_failed: "tiffs-failed"
+
+  # Ausgabeverzeichnis fuer umgerechnete Graustufen-PNGs.
+  separation_png: "pngs"
+
+  # Ausgabeverzeichnis fuer fertig zusammengesetzte Composite-PNGs.
+  composite_png: "composites"
+
+
+# =============================================================================
+# SUPERVISOR
+# =============================================================================
+#
+# Der Supervisor uebernimmt die zentrale Ablaufsteuerung
+# des Imageservers.
+#
+# Die einzelnen Verarbeitungsbereiche koennen unabhaengig
+# voneinander aktiviert und deaktiviert werden.
+#
+# Noch nicht fertiggestellte Funktionen bleiben deaktiviert.
+# =============================================================================
+
+supervisor:
+
+  # Intervall fuer regelmaessige Statusmeldungen in Sekunden.
+  heartbeat_interval_seconds: 60
+
+  # Automatische Verarbeitung eingehender TIFF-Dateien aktivieren.
+  tiff_processing_enabled: true
+
+  # Auftragsbasierte Composite-Erstellung aktivieren.
+  # Wird erst nach Fertigstellung der Auftragsverarbeitung aktiviert.
+  composite_processing_enabled: false
+
+  # Automatische Dateibereinigung aktivieren.
+  # Wird erst nach Fertigstellung des Cleanup-Moduls aktiviert.
+  cleanup_enabled: false
+
+
+# =============================================================================
+# FOLDER WATCHER
+# =============================================================================
+#
+# Der Folder Watcher ueberwacht das TIFF-Eingangsverzeichnis.
+#
+# Sobald eine TIFF-Datei vollstaendig uebertragen wurde,
+# wird sie unabhaengig von vorhandenen Bildauftraegen
+# an den TIFF Processor uebergeben.
+# =============================================================================
+
+watcher:
+
+  # Intervall fuer die Ueberpruefung des TIFF-Eingangsordners
+  # in Sekunden.
+  scan_interval_seconds: 5
+
+  # Mindestdauer in Sekunden, waehrend der Dateigroesse und
+  # Aenderungszeit einer TIFF-Datei unveraendert bleiben muessen.
+  #
+  # Dadurch soll verhindert werden, dass eine Datei bereits
+  # waehrend der Uebertragung verarbeitet wird.
+  file_stable_seconds: 15
+
+  # Wartezeit in Sekunden bis zum erneuten Verarbeitungsversuch
+  # nach einem Fehler.
+  retry_interval_seconds: 60
+
+  # Maximale Anzahl der Wiederholungsversuche bei Dateifehlern.
+  # Nach Ausschoepfen der Wiederholungsversuche wird die
+  # fehlerhafte Datei nach tiffs-failed verschoben.
+  max_retries: 3
+
+
+# =============================================================================
+# TIFF PROCESSING
+# =============================================================================
+#
+# TIFF-Dateien werden unmittelbar nach erfolgreicher
+# Stabilitaetspruefung in neutrale Graustufen-PNGs umgerechnet.
+#
+# Fuer die Umrechnung werden weder Produktinformationen noch
+# Bildauftraege benoetigt.
+#
+# Die Zuordnung zu einer Farbgruppe erfolgt erst spaeter
+# bei der Erstellung des Composite-PNGs.
+#
+# Der Dateiname bleibt bei der Umrechnung erhalten.
+#
+# Beispiele:
+#   158317.tiff      -> 158317.png
+#   A2606158317.tif  -> A2606158317.png
+# =============================================================================
+
+processing:
+
+  # Unterstuetzte Dateiendungen.
+  # Gross- und Kleinschreibung wird nicht unterschieden.
+  extensions:
+    - ".tif"
+    - ".tiff"
+
+  # Erlaubte Abweichung von der konfigurierten TIFF-Aufloesung.
+  #
+  # Beispiel:
+  # Bei einer konfigurierten Aufloesung von 1200 DPI und
+  # einer Toleranz von 100 DPI sind Aufloesungen zwischen
+  # 1100 und 1300 DPI zulaessig.
+  dpi_tolerance: 100
+
+
+  # ---------------------------------------------------------------------------
+  # DPI-Parameter
+  # ---------------------------------------------------------------------------
+  #
+  # Fuer unterschiedliche TIFF-Aufloesungen koennen eigene
+  # Parametersaetze definiert werden.
+  #
+  # Der TIFF Processor waehlt automatisch den Parametersatz
+  # mit der geringsten Abweichung zur TIFF-Aufloesung aus.
+  #
+  # dpi:
+  #   Erwartete Aufloesung der TIFF-Datei.
+  #
+  # factor:
+  #   Verkleinerungsfaktor fuer die Bildumrechnung.
+  #
+  # algorithm:
+  #   0 = Einfache blockweise Graustufenberechnung ohne Join.
+  #   2 = Join-Algorithmus nach dem Vorbild des alten Imageservers.
+  #
+  # join:
+  #   Breite der Randbereiche fuer den Join-Algorithmus.
+  #
+  # b, c, d:
+  #   Reservierte Parameter aus der Konfiguration des
+  #   alten Imageservers. Werden momentan nicht verwendet.
+  # ---------------------------------------------------------------------------
+
+  dpi_configs:
+
+    # Parametersatz fuer TIFF-Dateien mit 1200 DPI.
+    # Rechnerische Ausgabeaufloesung: ca. 75 DPI.
+
+    - dpi: 1200
+      factor: 16
+      algorithm: 2
+      join: 4
+      b: 0
+      c: 0
+      d: 0
+
+
+    # Parametersatz fuer TIFF-Dateien mit 2400 DPI.
+    # Rechnerische Ausgabeaufloesung: ca. 75 DPI.
+
+    - dpi: 2400
+      factor: 32
+      algorithm: 2
+      join: 8
+      b: 0
+      c: 0
+      d: 0
+
+
+# =============================================================================
+# JOB MANAGEMENT
+# =============================================================================
+#
+# Der Imageserver verwaltet die vom Product Interface
+# erzeugten Bildauftraege.
+#
+# Ein Auftrag enthaelt alle benoetigten Farbseparationen,
+# deren ReferenceNames und ContentIDs sowie die Namen
+# der zu erzeugenden Composite-PNGs.
+#
+# Die Auftragsverwaltung erfolgt ausschliesslich dateibasiert.
+# Es wird keine Datenbank benoetigt.
+# =============================================================================
+
+jobs:
+
+  # Wartende Auftraege.
+  #
+  # Dieses Verzeichnis muss mit job_creation.output_directory
+  # in der product-interface.yaml uebereinstimmen.
+  pending: "jobs/pending"
+
+  # Auftraege, die aktuell verarbeitet werden.
+  processing: "jobs/processing"
+
+  # Erfolgreich abgearbeitete Auftraege.
+  done: "jobs/done"
+
+  # Fehlerhafte Auftraege.
+  failed: "jobs/failed"
+
+  # Separates Verzeichnis fuer Test- und Diagnoseprogramme.
+  # Diese Auftraege werden nicht produktiv verarbeitet.
+  test: "jobs/test"
+
+
+# =============================================================================
+# COMPOSITE PROCESSING
+# =============================================================================
+#
+# Die Composite-Erstellung erfolgt ausschliesslich anhand
+# der Informationen aus den Bildauftraegen.
+#
+# Ein Composite wird erst erzeugt, wenn alle laut Auftrag
+# benoetigten PNG-Separationen vorhanden sind.
+#
+# Ein Auftrag kann eine, zwei, drei oder vier
+# Farbseparationen benoetigen.
+#
+# Identische Composite-Bildinhalte sollen nur einmal
+# berechnet und unter mehreren Dateinamen bereitgestellt werden.
+# =============================================================================
+
+composite:
+
+  # Ausgabeformat des fertigen Composite-Bildes.
+  output_format: "png"
+
+  # Farbmodus des fertigen Composite-Bildes.
+  output_mode: "RGB"
+
+  # Verarbeitung von ICC-Farbprofilen aktivieren.
+  icc_enabled: false
+
+  # Vollstaendiger Pfad zum verwendeten ICC-Farbprofil.
+  icc_profile: "/pecom/imgsrv/ISOnewspaper26v4.icc"
+
+  # Simulation der Papierfarbe aktivieren.
+  simulate_paper_color: false
+
+  # Maximale Breite des Composite-Bildes in Pixeln.
+  max_width: 1440
+
+  # Maximale Hoehe des Composite-Bildes in Pixeln.
+  max_height: 2560
+
+
+# =============================================================================
+# RETENTION
+# =============================================================================
+#
+# Aufbewahrungszeiten fuer Dateien und Bildauftraege.
+#
+# Unterstuetzte Zeiteinheiten:
+#
+#   s = Sekunden
+#   m = Minuten
+#   h = Stunden
+#   d = Tage
+#
+#   0 = Automatische Loeschung deaktiviert.
+#
+# Die automatische Bereinigung erfolgt durch cleanup.py.
+# Das Modul wird durch den Supervisor gesteuert.
+# =============================================================================
+
+retention:
+
+  # Unverarbeitete TIFF-Dateien.
+  # Diese Dateien werden aus Sicherheitsgruenden nicht
+  # automatisch geloescht.
+  tiff_in: 0
+
+  # Erfolgreich umgerechnete TIFF-Dateien.
+  tiff_done: "2d"
+
+  # Fehlerhafte TIFF-Dateien.
+  tiff_failed: "7d"
+
+  # Umgerechnete PNG-Separationen.
+  # Spaeter muss die Bereinigung offene Auftraege beruecksichtigen.
+  separation_png: "48h"
+
+  # Fertige Composite-PNGs.
+  composite_png: "2d"
+
+  # Wartende Auftraege nicht automatisch loeschen.
+  jobs_pending: 0
+
+  # Auftraege in Bearbeitung nicht automatisch loeschen.
+  jobs_processing: 0
+
+  # Erfolgreich abgearbeitete Auftraege.
+  jobs_done: "2d"
+
+  # Fehlerhafte Auftraege.
+  jobs_failed: "7d"
+
+  # Intervall fuer die automatische Dateibereinigung.
+  cleanup_interval: "1h"

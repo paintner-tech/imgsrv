@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JDF><ResourcePool><Resource><Request><DataRequest><InternetAddress>10.33.94.116</InternetAddress><UserName>pecom</UserName><TargetFileName>/pecom/frf/ppi/imageserver/pecom/in/piiprddat</TargetFileName></DataRequest><ProductName><![CDATA[1125711PORH1]]></ProductName><ProductName><![CDATA[1125ZN S  V1]]></ProductName><RequestExtensionList><RequestExtension Type="WebLead"/><RequestExtension Type="WebNumber"/><RequestExtension Type="ColorName"/><RequestExtension Type="SeparationReference"/><RequestExtension Type="ICCProfileName"/><RequestExtension Type="PlateTraceRelation"/><RequestExtension Type="PTPrintingCoupleId"/></RequestExtensionList></Request></Resource></ResourcePool></JDF>
+
