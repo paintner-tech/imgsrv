@@ -136,3 +136,27 @@ PIL.Image.DecompressionBombError: Image size (450640000 pixels) exceeds limit of
 2026-11-25 10:26:20,401 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158580.png (1075x1638) in 3.95 s
 2026-11-25 10:28:45,464 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158586.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
 2026-11-25 10:28:49,220 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158586.png (1075x1638) in 3.76 s
+2026-11-26 08:55:34,420 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158580.036955678d9742d8b43c1fa3b35c31ed.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:55:39,847 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158580.036955678d9742d8b43c1fa3b35c31ed.png (1075x1638) in 5.46 s
+2026-11-26 08:55:39,849 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158580.9ed87d367a0346d4811c2203ab92612b.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:55:43,444 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158580.9ed87d367a0346d4811c2203ab92612b.png (1075x1638) in 3.60 s
+2026-11-26 08:55:43,468 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158580.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:55:47,144 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158580.png (1075x1638) in 3.68 s
+2026-11-26 08:55:47,168 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158586.50dbb589c89246b5bc399b2b24e04345.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:55:50,774 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158586.50dbb589c89246b5bc399b2b24e04345.png (1075x1638) in 3.61 s
+2026-11-26 08:55:50,798 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158586.b838ce2181a441df8a7fc9d27525ece4.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:55:54,424 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158586.b838ce2181a441df8a7fc9d27525ece4.png (1075x1638) in 3.63 s
+2026-11-26 08:55:54,448 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158586.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:55:58,772 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158586.png (1075x1638) in 4.32 s
+2026-11-26 08:55:58,796 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158592.3e272cc5ba0744e493d854916b41830e.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:56:02,412 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158592.3e272cc5ba0744e493d854916b41830e.png (1075x1638) in 3.62 s
+2026-11-26 08:56:02,435 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158592.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:56:06,055 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158592.png (1075x1638) in 3.62 s
+2026-11-26 08:58:31,102 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158574.tiff, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:58:35,574 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158574.png (1075x1638) in 4.47 s
+2026-11-26 08:58:35,598 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158580.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:58:39,053 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158580.png (1075x1638) in 3.46 s
+2026-11-26 08:58:39,076 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158586.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:58:42,543 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158586.png (1075x1638) in 3.47 s
+2026-11-26 08:58:42,566 - INFO     - tiff_processor: TIFF: /pecom/imgsrv/tiffs-in/158592.tif, 17200x26200, 1270.00 dpi, factor=16, algorithm=2, join=4
+2026-11-26 08:58:46,179 - INFO     - tiff_processor: PNG written: /pecom/imgsrv/pngs/158592.png (1075x1638) in 3.61 s

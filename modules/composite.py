@@ -1,106 +1,152 @@
 #!/usr/bin/env python3
-"""Erzeugt aus vier Graustufen-PNG-Separationen ein farbiges RGB-PNG.
-
-Grundlage: rgbGray2TrueNew() aus dem alten Imageserver (rgb.c).
-Die Separationen bleiben unveraendert.
-"""
-
+# =============================================================================
+# ImageServer V2 - COMPOSITE
+# =============================================================================
+# Erzeugt RGB-PNGs aus explizit zugeordneten Graustufen-Separationen (1-4C).
+# Keine Suche nach Farbkennzeichen im Dateinamen. Keine Queue-Verwaltung.
+# Wahlweise mathematische Farbmischung oder ICC-Transformation CMYK -> sRGB.
+# =============================================================================
 import argparse
 import os
+import tempfile
+import stat
+from contextlib import ExitStack
 from pathlib import Path
 
 import numpy as np
 from PIL import Image
 
-try:
-    from modules.config_loader import load_config
-    from modules.library.logger import setup_rotating_logger
-except ModuleNotFoundError as error:
-    if error.name != 'modules':
-        raise
-    from config_loader import load_config
-    from library.logger import setup_rotating_logger
+
+# =============================================================================
+# FUNKTION: validate_settings
+# Aufgabe: Prueft die unterstuetzten Composite-Parameter der YAML.
+# Uebergabeparameter: config - ImageServerConfig.
+# Rueckgabewert: tuple[int, int] - maximale Breite und Hoehe.
+# =============================================================================
+def validate_settings(config):
+    settings = config.settings["composite"]
+    if settings.get("output_format", "png").lower() != "png":
+        raise ValueError("Only PNG output is supported")
+    if settings.get("output_mode", "RGB").upper() != "RGB":
+        raise ValueError("Only RGB output is supported")
+    for key in ("icc_enabled", "simulate_paper_color"):
+        if type(settings.get(key, False)) is not bool:
+            raise ValueError(f"composite.{key} must be a YAML boolean")
+    if settings.get("simulate_paper_color", False) and not settings.get("icc_enabled", False):
+        raise ValueError("Paper color simulation requires ICC color management")
+    width = settings.get("max_width", 1440)
+    height = settings.get("max_height", 2560)
+    if type(width) is not int or type(height) is not int or min(width, height) <= 0:
+        raise ValueError("Invalid composite dimensions")
+    return width, height
 
 
-# Findet zu einer PNG-Datei die vier zusammengehoerenden Separationen.
-# Rueckgabe: Dictionary mit den Schluesseln C, M, Y und K und den Dateipfaden.
-def find_separations(one_png, config):
-    one_png = Path(one_png).resolve()
-    section = config.settings['filenames']
-    color_position = int(section.get('color_position', '-1'))
-    colors = {
-        'C': section.get('cyan', 'C'),
-        'M': section.get('magenta', 'M'),
-        'Y': section.get('yellow', 'Y'),
-        'K': section.get('black', 'K'),
-    }
-    if any(len(value) != 1 for value in colors.values()):
-        raise ValueError('Die Farbkennzeichen in [filenames] muessen je ein Zeichen haben.')
-    if len({value.upper() for value in colors.values()}) != 4:
-        raise ValueError('Die vier Farbkennzeichen muessen unterschiedlich sein.')
-    if one_png.suffix.lower() != '.png':
-        raise ValueError('Bitte eine Separations-PNG-Datei angeben.')
-    if not one_png.is_file():
-        raise FileNotFoundError(one_png)
-    if one_png.parent != config.paths.separation_png.resolve():
-        raise ValueError(f'Die PNG-Datei muss in {config.paths.separation_png} liegen.')
+# =============================================================================
+# FUNKTION: resolve_icc_profile
+# Aufgabe: Ermittelt das gemeinsame Druckprofil aller aktiven Separationen.
+#          Profil aus dem Auftrag hat Vorrang. Nur wenn kein Profil angegeben
+#          ist, wird das konfigurierte Standardprofil benutzt.
+# Uebergabeparameter:
+#   config: ImageServerConfig.
+#   separations: dict[str, dict] oder None (manueller Test mit Standardprofil).
+# Rueckgabewert: Path zum ICC-Profil oder None bei deaktiviertem ICC.
+# Fehler: Fehlende Dateien, ungueltige Namen und widerspruechliche Profile
+#         werden nicht stillschweigend durch ein anderes Profil ersetzt.
+# =============================================================================
+def resolve_icc_profile(config, separations=None):
+    validate_settings(config)
+    settings = config.settings["composite"]
+    if not settings.get("icc_enabled", False):
+        return None
 
-    stem = one_png.stem
-    position = color_position if color_position >= 0 else len(stem) + color_position
-    if position < 0 or position >= len(stem):
-        raise ValueError(f'color_position={color_position} liegt ausserhalb des Dateinamens: {stem}')
-    if stem[position].upper() not in {value.upper() for value in colors.values()}:
-        raise ValueError(f'An Position {color_position} steht kein Farbkennzeichen: {one_png.name}')
+    # Ein CMYK-Profil beschreibt die gemeinsame Druckbedingung, nicht vier
+    # einzeln anzuwendende Farbkorrekturen.
+    profiles = set()
+    for color, separation in (separations or {}).items():
+        name = separation.get("icc_profile")
+        if name is None or name == "":
+            continue
+        if not isinstance(name, str) or not name.strip():
+            raise ValueError(f"Invalid ICC profile for {color}: {name!r}")
+        profiles.add(name)
+    if len(profiles) > 1:
+        raise ValueError(f"Conflicting ICC profiles: {sorted(profiles)}")
 
-    result = {}
-    # Gross-/Kleinschreibung der Dateiendung wird nicht erraten: Der TIFF-Prozessor schreibt .png.
-    for color, letter in colors.items():
-        name = stem[:position] + letter + stem[position + 1:] + '.png'
-        filename = one_png.parent / name
-        if not filename.is_file():
-            raise FileNotFoundError(f'Separation {color} fehlt: {filename}')
-        result[color] = filename
-    return result
+    root = Path(config.settings["server"]["root_dir"])
+    default = settings.get("icc_profile")
+    # Die alte Konfiguration enthielt einen absoluten Standardprofilpfad.
+    # Bei explizitem icc_directory gelten nur Dateinamen aus diesem Ordner.
+    legacy = Path(default) if isinstance(default, str) and Path(default).is_absolute() else None
+    directory = (root / settings.get("icc_directory",
+                                     str(legacy.parent) if legacy else "icc")).resolve()
+    if profiles:
+        name = next(iter(profiles))
+    elif legacy and "icc_directory" not in settings:
+        name = legacy.name
+    else:
+        name = default
+    if (not isinstance(name, str) or not name or name != Path(name).name
+            or "/" in name or "\\" in name or "\x00" in name
+            or Path(name).suffix.lower() not in (".icc", ".icm")
+            or not Path(name).stem.strip()):
+        raise ValueError(f"Invalid ICC profile filename: {name!r}")
 
-
-# Bestimmt aus dem Namen einer Separation den Namen des fertigen 4C-PNGs.
-# Rueckgabe: Dateiname ohne Farbkennzeichen, mit Endung .png.
-def composite_filename(one_png, config):
-    stem = Path(one_png).stem
-    position_config = config.settings.getint('filenames', 'color_position', fallback=-1)
-    position = position_config if position_config >= 0 else len(stem) + position_config
-    name = stem[:position] + stem[position + 1:]
-    # Trenner unmittelbar vor der ehemaligen Farbangabe entfernen, z.B. Auftrag_C -> Auftrag.
-    if position == len(stem) - 1:
-        name = name.rstrip('_.- ')
-    if not name:
-        raise ValueError('Aus dem Dateinamen kann kein Auftragsname abgeleitet werden.')
-    return name + '.png'
-
-
-# Prueft, ob alle vier PNGs Graustufenbilder mit identischer Groesse sind.
-# Rueckgabe: (Breite, Hoehe, DPI) der Bilder.
-def inspect_separations(files):
-    size = None
-    dpi = None
-    for color, filename in files.items():
-        with Image.open(filename) as image:
-            if image.mode != 'L':
-                raise ValueError(f'Separation {color} muss 8-Bit-Graustufen-PNG sein, gefunden: {image.mode}')
-            if size is None:
-                size = image.size
-                dpi_value = image.info.get('dpi', (0, 0))
-                dpi = float(dpi_value[0] if isinstance(dpi_value, tuple) else dpi_value)
-            elif image.size != size:
-                raise ValueError(f'Bildgroesse von {color} weicht ab: {image.size} statt {size}')
-    return size[0], size[1], dpi
+    profile = (directory / name).resolve()
+    if not profile.is_relative_to(directory):
+        raise ValueError(f"ICC profile outside configured directory: {profile}")
+    if not stat.S_ISREG(profile.stat().st_mode):
+        raise ValueError(f"ICC profile is not a regular file: {profile}")
+    return profile
 
 
-# Mischt CMYK-Dichten zu RGB, wie rgbGray2TrueNew() ohne ICC-Wuerfel.
-# Rueckgabe: NumPy-Array der Form (Hoehe, Breite, 3), Datentyp uint8.
+# =============================================================================
+# FUNKTION: create_icc_transform
+# Aufgabe: Erstellt eine LittleCMS-Transformation vom CMYK-Druckfarbraum
+#          nach sRGB. Pro Composite einmal aufbauen, fuer alle Streifen nutzen.
+# Uebergabeparameter: profile_path (Path), simulate_paper_color (bool), logger.
+# Rueckgabewert: tuple (ImageCmsTransform, bytes des sRGB-Ausgabeprofils).
+# Fehler: Nicht lesbare bzw. ungeeignete ICC-Profile fuehren zum Jobfehler.
+# =============================================================================
+def create_icc_transform(profile_path, simulate_paper_color, logger):
+    from PIL import ImageCms
+    source = ImageCms.getOpenProfile(str(profile_path))
+    if source.profile.xcolor_space.strip() != "CMYK":
+        raise ValueError(f"ICC profile must describe CMYK: {profile_path}")
+    target = ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB"))
+    intent = (ImageCms.Intent.ABSOLUTE_COLORIMETRIC if simulate_paper_color
+              else ImageCms.Intent.RELATIVE_COLORIMETRIC)
+    transform = ImageCms.buildTransform(source, target, "CMYK", "RGB",
+                                        renderingIntent=intent)
+    logger.info("ICC transformation: %s -> sRGB, intent=%s",
+                profile_path, intent.name)
+    return transform, target.tobytes()
+
+
+# =============================================================================
+# FUNKTION: combine_icc
+# Aufgabe: Kehrt die Grauwerte in Farbauftragswerte um und wendet die zuvor
+#          aufgebaute ICC-Transformation auf einen CMYK-Bildstreifen an.
+#          PNG-Weiss=255 entspricht keinem Farbauftrag (CMYK=0).
+# Uebergabeparameter: strips (list[ndarray] in CMYK-Reihenfolge), transform.
+# Rueckgabewert: PIL.Image im RGB-Modus; Aufrufer schliesst das Bild.
+# =============================================================================
+def combine_icc(strips, transform):
+    from PIL import ImageCms
+    # Explizite Kanalreihenfolge C, M, Y, K. Nicht Image.convert("CMYK")
+    # auf ein schon gemischtes RGB-Bild anwenden.
+    ink = 255 - np.stack(strips, axis=-1)
+    height, width = ink.shape[:2]
+    with Image.frombytes("CMYK", (width, height), ink.tobytes()) as cmyk:
+        return ImageCms.applyTransform(cmyk, transform)
+
+
+# =============================================================================
+# FUNKTION: combine_cmyk
+# Aufgabe: Rechnet CMYK-Grauwerte (Weiss=255) in RGB um.
+# Uebergabeparameter: cyan, magenta, yellow, black - uint8-Graustufenarrays.
+# Rueckgabewert: uint8-NumPy-Array (Hoehe, Breite, 3).
+# =============================================================================
 def combine_cmyk(cyan, magenta, yellow, black):
-    # Der TIFF-Prozessor schreibt normale PNG-Grauwerte: Weiss=255, Schwarz=0.
-    # Der alte C-Code verarbeitet dagegen Farbdichten: Weiss=0, Schwarz=255.
     c = 255 - cyan.astype(np.int16)
     m = 255 - magenta.astype(np.int16)
     y = 255 - yellow.astype(np.int16)
@@ -112,85 +158,125 @@ def combine_cmyk(cyan, magenta, yellow, black):
     return rgb
 
 
-# Erstellt das zusammengesetzte RGB-PNG aus vier vorhandenen Separationen.
-# Rueckgabe: Pfad zum fertigen PNG (Path). Bei Fehler bleibt das bisherige Ziel unangetastet.
-def create_composite(one_png, config, logger):
-    settings = config.settings['composite']
-    if settings.get('output_format', 'png').lower() != 'png':
-        raise ValueError('Derzeit wird nur output_format = png unterstuetzt.')
-    if settings.get('output_mode', 'RGB').upper() != 'RGB':
-        raise ValueError('Derzeit wird nur output_mode = RGB unterstuetzt.')
-    if settings.getboolean('icc_enabled', fallback=False):
-        raise ValueError('icc_enabled = true ist noch nicht implementiert.')
-    if settings.getboolean('simulate_paper_color', fallback=False):
-        raise ValueError('simulate_paper_color = true ist noch nicht implementiert.')
-
-    max_width = int(settings.get('max_width', '1440'))
-    max_height = int(settings.get('max_height', '2560'))
-    if max_width <= 0 or max_height <= 0:
-        raise ValueError('max_width und max_height muessen groesser als 0 sein.')
-
-    files = find_separations(one_png, config)
-    width, height, dpi = inspect_separations(files)
-    logger.info('Erzeuge 4C aus: %s', ', '.join(str(files[c].name) for c in 'CMYK'))
-    logger.info('Ausgangsgroesse: %dx%d', width, height)
-
-    # In Streifen arbeiten, um bei grossen Bildern wenig RAM zu verbrauchen.
-    result = Image.new('RGB', (width, height))
-    images = [Image.open(files[color]) for color in 'CMYK']
-    try:
+# =============================================================================
+# FUNKTION: create_composite
+# Aufgabe: Berechnet genau ein RGB-Bild aus 1-4 vorgegebenen Separationen.
+#           Nicht benoetigte Farben sind weiss. Die Verarbeitung erfolgt
+#           streifenweise. Das Ziel wird erst nach vollstaendigem Schreiben
+#           atomar ersetzt. Keine TIFFs oder Quell-PNGs werden geaendert.
+# Uebergabeparameter:
+#   files: dict[str, Path] - aktive Farbgruppen C/M/Y/K und PNG-Pfade.
+#   output_file: Path - Ausgabedatei (beim Worker ausschliesslich Staging).
+#   config: ImageServerConfig; logger: logging.Logger.
+#   icc_profile: Path zum auftragsbezogenen Druckprofil; None fuer Standard.
+# Rueckgabewert: Path - fertig geschriebene RGB-PNG-Datei.
+# =============================================================================
+def create_composite(files, output_file, config, logger, icc_profile=None):
+    max_width, max_height = validate_settings(config)
+    if not files or not set(files) <= set("CMYK"):
+        raise ValueError("Expected one to four active CMYK separations")
+    settings = config.settings["composite"]
+    transform = None
+    output_profile = None
+    if settings.get("icc_enabled", False):
+        profile = icc_profile if icc_profile is not None else resolve_icc_profile(config)
+        transform, output_profile = create_icc_transform(
+            profile, settings.get("simulate_paper_color", False), logger)
+    output_file = Path(output_file)
+    if any(output_file.resolve() == Path(path).resolve() for path in files.values()):
+        raise ValueError("Composite must not overwrite a separation")
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with ExitStack() as stack:
+        images = {}
+        size = None
+        dpi = None
+        # Alle aktiven Separationen muessen dieselbe Pixelgeometrie haben.
+        for color, filename in files.items():
+            image = stack.enter_context(Image.open(filename))
+            if image.format != "PNG" or image.mode != "L":
+                raise ValueError(f"Separation {color} must be an 8-bit grayscale PNG")
+            if size is None:
+                size = image.size
+                dpi = image.info.get("dpi")
+            elif image.size != size:
+                raise ValueError(f"Separation {color}: size {image.size} != {size}")
+            images[color] = image
+        width, height = size
+        logger.info("Rendering %dC, %dx%d: %s", len(images), width, height, files)
+        result = stack.enter_context(Image.new("RGB", size))
         for top in range(0, height, 256):
-            bottom = min(height, top + 256)
-            strips = [np.asarray(img.crop((0, top, width, bottom)), dtype=np.uint8) for img in images]
-            result.paste(Image.fromarray(combine_cmyk(*strips), mode='RGB'), (0, top))
-    finally:
-        for image in images:
-            image.close()
-
-    # Nur verkleinern, nicht vergroessern; Seitenverhaeltnis beibehalten.
-    result.thumbnail((max_width, max_height), Image.Resampling.LANCZOS)
-    output_dir = config.paths.composite_png
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / composite_filename(one_png, config)
-    temp_file = output_dir / (output_file.name + f'.{os.getpid()}.tmp')
-    try:
-        # DPI auf die verringerte Pixelzahl anpassen.
+            bottom = min(top + 256, height)
+            white = np.full((bottom - top, width), 255, dtype=np.uint8)
+            strips = []
+            for color in "CMYK":
+                if color in images:
+                    with images[color].crop((0, top, width, bottom)) as strip:
+                        strips.append(np.array(strip, dtype=np.uint8))
+                else:
+                    strips.append(white)
+            rgb = (combine_icc(strips, transform) if transform is not None
+                   else Image.fromarray(combine_cmyk(*strips)))
+            with rgb:
+                result.paste(rgb, (0, top))
+        result.thumbnail((max_width, max_height), Image.Resampling.LANCZOS)
         options = {}
-        if dpi and dpi > 0:
-            output_dpi = dpi * (result.width / width + result.height / height) / 2
-            options['dpi'] = (output_dpi, output_dpi)
-        result.save(temp_file, format='PNG', **options)
-        os.replace(temp_file, output_file)
-    finally:
-        temp_file.unlink(missing_ok=True)
-
-    logger.info('4C-PNG geschrieben: %s (%dx%d)', output_file, result.width, result.height)
+        # Im PNG wird das AUSGABEPROFIL (sRGB) eingebettet. Das Druckprofil
+        # ist bereits angewendet worden und passt nicht zu RGB-Pixeldaten.
+        if output_profile is not None:
+            options["icc_profile"] = output_profile
+        if isinstance(dpi, tuple) and len(dpi) == 2 and min(dpi) > 0:
+            options["dpi"] = (dpi[0] * result.width / width,
+                              dpi[1] * result.height / height)
+        fd, name = tempfile.mkstemp(prefix=".composite-", suffix=".tmp",
+                                    dir=output_file.parent)
+        try:
+            with os.fdopen(fd, "wb") as stream:
+                result.save(stream, format="PNG", **options)
+                # HTTP-Server soll fertige Vorschaubilder lesen koennen.
+                os.fchmod(stream.fileno(), 0o644)
+                stream.flush()
+                os.fsync(stream.fileno())
+            os.replace(name, output_file)
+        finally:
+            Path(name).unlink(missing_ok=True)
+        logger.info("RGB PNG rendered: %s (%dx%d)", output_file,
+                    result.width, result.height)
     return output_file
 
 
-# Startet das Modul zum Testen mit einer angegebenen Separation.
-# Rueckgabe: 0 bei Erfolg, 1 bei Fehler.
+# =============================================================================
+# FUNKTION: main
+# Aufgabe: Manueller Test mit expliziten Farbdateien und Ausgabepfad.
+# Uebergabeparameter: Keine; Argumente aus sys.argv.
+# Rueckgabewert: int - 0 bei Erfolg, 1 bei Fehler.
+# =============================================================================
 def main():
-    parser = argparse.ArgumentParser(description='Erzeugt ein 4C-RGB-PNG aus C/M/Y/K-PNGs')
-    parser.add_argument('png_file', help='Pfad zu einer der vier PNG-Separationen')
-    parser.add_argument('--config', help='Alternativer Pfad zur imageserver.ini')
+    import logging
+    if __package__:
+        from .config_loader import load_config
+    else:
+        from config_loader import load_config
+    parser = argparse.ArgumentParser(description="Render explicit grayscale PNG separations")
+    for color in "CMYK":
+        parser.add_argument("--" + color, type=Path)
+    parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--config")
+    parser.add_argument("--icc-profile", help="Override default ICC filename for manual test")
     args = parser.parse_args()
-    logger = None
+    logging.basicConfig(level=logging.INFO)
+    logger = logging.getLogger("composite")
     try:
         config = load_config(args.config) if args.config else load_config()
-        log_path = config.log_files['composite']
-        logger = setup_rotating_logger('composite', log_path.parent, log_path.name)
-        logger.setLevel(config.log_level)
-        output_file = create_composite(args.png_file, config, logger)
-        print(f'Erstellt: {output_file}')
+        files = {c: getattr(args, c) for c in "CMYK" if getattr(args, c)}
+        metadata = {"test": {"icc_profile": args.icc_profile}} if args.icc_profile else None
+        profile = resolve_icc_profile(config, metadata)
+        create_composite(files, args.output, config, logger, icc_profile=profile)
         return 0
-    except Exception as error:
-        if logger:
-            logger.exception('4C-Erstellung fehlgeschlagen: %s', error)
-        print(f'FEHLER: {error}')
+    except Exception:
+        logger.exception("Composite failed")
         return 1
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     raise SystemExit(main())
 

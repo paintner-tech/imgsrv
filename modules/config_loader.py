@@ -262,10 +262,17 @@ def validate_processing(processing):
 # -----------------------------------------------------------------------------
 def validate_icc_profile(composite, root_dir):
     enabled = required(composite, 'icc_enabled', bool, 'composite')
+
+    # Verzeichnis der verfuegbaren ICC-Profile aufloesen.
+    directory = required(composite, 'icc_directory', str, 'composite')
+    icc_directory = resolve_path(root_dir, directory)
+
+    # Dateiname des konfigurierten Standardprofils.
     value = required(composite, 'icc_profile', str, 'composite')
-    profile = resolve_path(root_dir, value)
-    if profile.suffix.lower() not in ('.icc', '.icm'):
-        raise ConfigError(f'Invalid ICC profile extension: {profile}')
+
+    # Vollstaendigen Pfad zum ICC-Profil ermitteln.
+    profile = resolve_path(icc_directory, value)
+
 
     # Bei deaktivierter ICC-Verarbeitung darf die Datei noch fehlen. Die
     # TIFF-Umrechnung benoetigt kein Farbprofil und soll unabhaengig bleiben.

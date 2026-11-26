@@ -1,0 +1,20 @@
+2026-11-26 08:15:37,997 - INFO     - imageserver.job_processor.1:367 - Job Processor 1 started
+2026-11-26 08:15:38,036 - INFO     - imageserver.job_processor.1:251 - Job claimed: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864 (4C)
+2026-11-26 08:15:38,050 - INFO     - imageserver.job_processor.1:91 - Rendering 4C, 1075x1638: {'C': PosixPath('/pecom/imgsrv/pngs/158574.png'), 'K': PosixPath('/pecom/imgsrv/pngs/158592.png'), 'M': PosixPath('/pecom/imgsrv/pngs/158580.png'), 'Y': PosixPath('/pecom/imgsrv/pngs/158586.png')}
+2026-11-26 08:15:38,318 - INFO     - imageserver.job_processor.1:122 - RGB PNG rendered: /pecom/imgsrv/composites/.job-render-866abb9v/rendered.tmp (1075x1638)
+2026-11-26 08:15:38,333 - INFO     - imageserver.job_processor.1:296 - Job completed: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864 (1 composites)
+2026-11-26 08:15:38,369 - INFO     - imageserver.job_processor.1:380 - Job Processor 1 stopped
+2026-11-26 08:22:09,552 - INFO     - imageserver.job_processor.1:367 - Job Processor 1 started
+2026-11-26 08:51:57,054 - INFO     - imageserver.job_processor.1:428 - Job Processor 1 started
+2026-11-26 08:51:57,069 - INFO     - imageserver.job_processor.1:230 - Composite requires update: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864
+2026-11-26 08:51:57,096 - INFO     - imageserver.job_processor.1:271 - Job claimed: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864 (4C)
+2026-11-26 08:51:57,145 - INFO     - imageserver.job_processor.1:120 - ICC transformation: /pecom/imgsrv/icc/ISOnewspaper26v4.icc -> sRGB, intent=RELATIVE_COLORIMETRIC
+2026-11-26 08:51:57,156 - INFO     - imageserver.job_processor.1:205 - Rendering 4C, 1075x1638: {'C': PosixPath('/pecom/imgsrv/pngs/158574.png'), 'K': PosixPath('/pecom/imgsrv/pngs/158592.png'), 'M': PosixPath('/pecom/imgsrv/pngs/158580.png'), 'Y': PosixPath('/pecom/imgsrv/pngs/158586.png')}
+2026-11-26 08:51:57,470 - INFO     - imageserver.job_processor.1:242 - RGB PNG rendered: /pecom/imgsrv/composites/.job-render-_8vsljfl/rendered.tmp (1075x1638)
+2026-11-26 08:51:57,489 - INFO     - imageserver.job_processor.1:322 - Job completed: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864 (1 composites)
+2026-11-26 08:53:06,758 - INFO     - imageserver.job_processor.1:443 - Job Processor 1 stopped
+2026-11-26 08:53:18,708 - INFO     - imageserver.job_processor.1:428 - Job Processor 1 started
+2026-11-26 08:53:18,783 - INFO     - imageserver.job_processor.1:443 - Job Processor 1 stopped
+2026-11-26 08:53:55,055 - INFO     - imageserver.job_processor.1:428 - Job Processor 1 started
+2026-11-26 08:54:04,045 - INFO     - imageserver.job_processor.1:443 - Job Processor 1 stopped
+2026-11-26 08:54:13,583 - INFO     - imageserver.job_processor.1:428 - Job Processor 1 started

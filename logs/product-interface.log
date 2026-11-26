@@ -935,3 +935,1315 @@ ValueError: AZ    2024-10-19      AL_5: page/plate mismatch 52688.1.2.0: C 15833
 2026-11-25 15:09:09 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
 2026-11-25 15:09:09 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
 2026-11-25 15:09:09 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=60, running=0, done=0, failed=0
+2026-11-26 08:22:09 - INFO     - product-interface:334 - ============================================================
+2026-11-26 08:22:09 - INFO     - product-interface:338 - Product Interface logging initialized
+2026-11-26 08:22:09 - INFO     - product-interface:342 - Log file: /pecom/imgsrv/logs/product-interface.log
+2026-11-26 08:22:09 - INFO     - product-interface:347 - Log level: INFO
+2026-11-26 08:22:09 - INFO     - product-interface:352 - Maximum log file size: 10 MiB
+2026-11-26 08:22:09 - INFO     - product-interface:357 - Log backup count: 5
+2026-11-26 08:22:09 - INFO     - product-interface:362 - Console output: True
+2026-11-26 08:22:09 - INFO     - product-interface:367 - ============================================================
+2026-11-26 08:22:09 - INFO     - product-interface.main:954 - Product Interface Supervisor started
+2026-11-26 08:22:09 - INFO     - product-interface.main:958 - Polling interval: 60 seconds
+2026-11-26 08:22:09 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:22:09 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:22:09 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:22:09 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:22:13 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:22:13 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:22:13 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:22:13 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:22:13 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:22:13 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:22:13 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:22:13 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:22:13 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:22:13 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:22:13 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:22:13 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:22:13 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:22:13 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:22:13 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:22:13 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:22:13 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:23:13 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:23:13 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:23:13 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:23:14 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:23:18 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:23:18 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:23:18 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:23:18 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:23:18 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:23:18 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:23:18 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:23:18 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:23:18 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:23:18 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:23:18 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:23:18 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:23:18 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:23:18 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:23:18 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:23:18 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:23:18 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:24:18 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:24:18 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:24:18 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:24:19 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:24:23 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:24:23 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:24:23 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:24:23 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:24:23 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:24:23 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:24:23 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:24:23 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:24:23 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:24:23 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:24:23 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:24:23 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:24:23 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:24:23 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:24:23 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:24:23 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:24:23 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:25:23 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:25:23 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:25:23 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:25:23 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:25:28 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:25:28 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:25:28 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:25:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:25:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:25:28 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:25:28 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:25:28 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:25:28 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:25:28 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:25:28 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:25:28 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:25:28 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:25:28 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:25:28 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:25:28 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:25:28 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:26:28 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:26:28 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:26:28 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:26:29 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:26:33 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:26:33 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:26:33 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:26:33 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:26:33 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:26:33 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:26:33 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:26:33 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:26:33 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:26:33 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:26:33 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:26:33 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:26:33 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:26:33 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:26:33 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:26:33 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:26:33 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:27:33 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:27:33 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:27:33 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:27:34 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:27:38 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:27:38 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:27:38 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:27:38 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:27:38 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:27:38 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:27:38 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:27:38 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:27:38 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:27:38 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:27:38 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:27:38 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:27:38 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:27:38 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:27:38 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:27:38 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:27:38 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:28:38 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:28:38 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:28:38 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:28:38 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:28:43 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:28:43 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:28:43 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:28:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:28:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:28:43 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:28:43 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:28:43 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:28:43 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:28:43 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:28:43 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:28:43 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:28:43 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:28:43 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:28:43 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:28:43 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:28:43 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:29:43 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:29:43 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:29:43 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:29:44 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:29:48 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:29:48 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:29:48 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:29:48 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:29:48 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:29:48 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:29:48 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:29:48 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:29:48 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:29:48 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:29:48 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:29:48 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:29:48 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:29:48 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:29:48 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:29:48 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:29:48 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:30:48 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:30:48 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:30:48 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:30:49 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:30:53 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:30:53 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:30:53 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:30:53 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:30:53 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:30:53 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:30:53 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:30:53 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:30:53 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:30:53 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:30:53 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:30:53 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:30:53 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:30:53 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:30:53 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:30:53 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:30:53 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:31:53 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:31:53 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:31:53 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:31:54 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:31:58 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:31:58 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:31:58 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:31:58 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:31:58 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:31:58 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:31:58 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:31:58 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:31:58 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:31:58 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:31:58 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:31:58 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:31:58 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:31:58 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:31:58 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:31:58 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:31:58 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:32:58 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:32:58 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:32:58 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:32:59 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:33:03 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:33:03 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:33:03 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:33:03 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:33:03 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:33:03 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:33:03 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:33:03 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:33:03 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:33:03 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:33:03 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:33:03 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:33:03 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:33:03 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:33:03 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:33:03 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:33:03 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:34:03 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:34:03 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:34:03 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:34:03 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:34:08 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:34:08 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:34:08 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:34:08 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:34:08 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:34:08 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:34:08 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:34:08 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:34:08 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:34:08 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:34:08 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:34:08 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:34:08 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:34:08 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:34:08 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:34:08 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:34:08 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:35:08 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:35:08 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:35:08 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:35:09 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:35:13 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:35:13 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:35:13 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:35:13 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:35:13 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:35:13 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:35:13 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:35:13 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:35:13 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:35:13 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:35:13 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:35:13 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:35:13 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:35:13 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:35:13 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:35:13 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:35:13 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:36:13 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:36:13 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:36:13 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:36:14 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:36:18 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:36:18 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:36:18 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:36:18 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:36:18 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:36:18 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:36:18 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:36:18 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:36:18 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:36:18 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:36:18 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:36:18 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:36:18 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:36:18 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:36:18 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:36:18 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:36:18 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:37:18 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:37:18 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:37:18 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:37:19 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:37:23 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:37:23 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:37:23 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:37:23 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:37:23 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:37:23 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:37:23 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:37:23 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:37:23 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:37:23 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:37:23 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:37:23 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:37:23 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:37:23 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:37:23 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:37:23 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:37:23 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:38:23 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:38:23 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:38:23 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:38:24 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:38:28 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:38:28 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:38:28 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:38:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:38:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:38:28 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:38:28 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:38:28 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:38:28 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:38:28 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:38:28 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:38:28 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:38:28 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:38:28 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:38:28 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:38:28 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:38:28 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:39:28 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:39:28 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:39:28 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:39:29 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:39:33 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:39:33 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:39:33 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:39:33 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:39:33 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:39:33 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:39:33 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:39:33 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:39:33 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:39:33 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:39:33 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:39:33 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:39:33 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:39:33 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:39:33 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:39:33 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:39:33 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:40:33 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:40:33 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:40:33 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:40:34 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:40:38 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:40:38 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:40:38 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:40:38 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:40:38 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:40:38 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:40:38 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:40:38 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:40:38 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:40:38 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:40:38 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:40:38 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:40:38 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:40:38 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:40:38 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:40:38 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:40:38 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:41:38 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:41:38 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:41:38 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:41:39 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:41:43 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:41:43 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:41:43 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:41:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:41:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:41:43 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:41:43 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:41:43 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:41:43 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:41:43 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:41:43 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:41:43 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:41:43 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:41:43 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:41:43 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:41:43 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:41:43 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:42:43 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:42:43 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:42:43 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:42:44 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:42:49 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:42:49 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:42:49 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:42:49 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:42:49 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:42:49 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:42:49 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:42:49 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:42:49 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:42:49 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:42:49 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:42:49 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:42:49 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:42:49 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:42:49 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:42:49 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:42:49 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:43:49 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:43:49 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:43:49 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:43:49 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:43:53 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:43:53 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:43:53 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:43:53 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:43:53 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:43:53 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:43:53 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:43:53 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:43:53 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:43:53 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:43:53 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:43:53 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:43:53 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:43:53 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:43:53 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:43:53 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:43:53 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:44:53 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:44:53 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:44:53 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:44:54 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:44:58 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:44:58 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:44:58 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:44:58 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:44:58 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:44:58 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:44:58 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:44:58 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:44:58 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:44:58 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:44:58 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:44:58 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:44:58 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:44:58 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:44:58 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:44:58 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:44:58 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:45:58 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:45:58 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:45:58 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:45:59 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:46:04 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:46:04 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:46:04 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:46:04 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:46:04 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:46:04 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:46:04 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:46:04 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:46:04 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:46:04 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:46:04 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:46:04 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:46:04 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:46:04 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:46:04 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:46:04 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:46:04 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:47:04 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:47:04 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:47:04 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:47:05 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:47:09 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:47:09 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:47:09 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:47:09 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:47:09 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:47:09 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:47:09 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:47:09 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:47:09 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:47:09 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:47:09 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:47:09 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:47:09 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:47:09 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:47:09 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:47:09 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:47:09 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:48:09 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:48:09 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:48:09 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:48:09 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:48:13 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:48:13 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:48:13 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:48:13 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:48:13 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:48:13 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:48:13 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:48:13 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:48:13 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:48:13 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:48:13 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:48:13 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:48:13 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:48:13 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:48:13 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:48:13 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:48:13 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:49:13 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:49:13 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:49:13 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:49:15 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:49:19 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:49:19 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:49:19 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:49:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:49:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:49:19 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:49:19 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:49:19 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:49:19 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:49:19 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:49:19 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:49:19 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:49:19 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:49:19 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:49:19 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:49:19 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:49:19 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:50:19 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:50:19 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:50:19 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:50:19 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:50:23 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:50:23 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:50:23 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:50:23 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:50:23 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:50:23 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:50:23 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:50:23 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:50:23 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:50:23 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:50:23 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:50:23 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:50:23 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:50:23 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:50:23 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:50:23 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:50:23 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:51:23 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:51:23 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:51:23 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:51:24 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:51:28 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:51:28 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:51:28 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:51:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:51:28 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:51:28 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:51:28 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:51:28 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:51:28 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:51:28 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:51:28 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:51:28 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:51:28 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:51:28 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:51:28 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:51:28 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:51:28 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:52:28 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:52:28 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:52:28 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:52:29 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:52:33 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:52:33 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:52:33 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:52:33 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:52:33 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:52:33 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:52:33 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:52:33 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:52:33 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:52:33 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:52:33 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:52:33 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:52:33 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:52:33 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:52:33 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:52:33 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:52:33 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:53:33 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:53:33 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:53:33 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:53:34 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:53:38 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:53:38 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:53:38 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:53:38 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:53:38 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:53:38 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:53:38 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:53:38 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:53:38 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:53:38 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:53:38 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:53:38 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:53:38 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:53:38 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:53:38 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:53:38 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:53:38 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:54:38 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:54:38 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:54:38 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:54:39 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:54:43 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:54:43 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:54:43 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:54:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:54:43 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:54:43 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:54:43 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:54:43 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:54:43 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:54:43 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:54:43 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:54:43 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:54:43 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:54:43 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:54:43 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:54:43 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:54:43 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:55:43 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:55:43 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:55:43 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:55:44 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:55:49 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:55:49 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:55:49 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:55:49 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:55:49 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:55:49 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:55:49 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:55:49 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:55:49 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:55:49 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:55:49 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:55:49 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:55:49 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:55:49 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:55:49 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:55:49 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:55:49 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:56:49 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:56:49 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:56:49 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:56:49 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:56:53 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:56:53 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:56:53 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:56:53 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:56:53 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:56:53 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:56:53 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:56:53 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:56:53 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:56:53 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:56:53 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:56:53 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:56:53 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:56:53 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:56:53 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:56:54 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:56:54 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:57:54 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:57:54 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:57:54 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:57:54 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:57:59 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:57:59 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:57:59 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:57:59 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:57:59 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:57:59 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:57:59 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:57:59 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:57:59 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:57:59 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:57:59 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:57:59 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:57:59 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:57:59 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:57:59 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:57:59 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:57:59 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 08:58:59 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 08:58:59 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 08:58:59 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 08:59:00 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 08:59:04 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 08:59:04 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 08:59:04 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 08:59:04 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 08:59:04 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 08:59:04 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 08:59:04 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 08:59:04 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 08:59:04 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 08:59:04 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 08:59:04 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 08:59:04 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 08:59:04 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 08:59:04 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 08:59:04 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 08:59:04 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 08:59:04 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:00:04 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:00:04 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:00:04 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:00:05 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:00:09 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:00:09 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:00:09 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:00:09 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:00:09 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:00:09 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:00:09 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:00:09 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:00:09 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:00:09 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:00:09 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:00:09 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:00:09 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:00:09 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:00:09 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:00:09 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:00:09 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:01:09 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:01:09 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:01:09 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:01:09 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:01:14 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:01:14 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:01:14 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:01:14 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:01:14 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:01:14 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:01:14 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:01:14 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:01:14 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:01:14 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:01:14 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:01:14 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:01:14 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:01:14 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:01:14 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:01:14 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:01:14 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:02:14 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:02:14 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:02:14 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:02:15 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:02:19 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:02:19 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:02:19 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:02:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:02:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:02:19 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:02:19 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:02:19 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:02:19 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:02:19 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:02:19 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:02:19 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:02:19 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:02:19 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:02:19 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:02:19 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:02:19 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:03:19 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:03:19 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:03:19 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:03:20 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:03:24 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:03:24 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:03:24 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:03:24 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:03:24 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:03:24 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:03:24 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:03:24 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:03:24 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:03:24 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:03:24 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:03:24 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:03:24 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:03:24 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:03:24 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:03:24 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:03:24 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:04:24 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:04:24 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:04:24 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:04:24 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:04:29 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:04:29 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:04:29 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:04:29 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:04:29 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:04:29 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:04:29 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:04:29 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:04:29 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:04:29 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:04:29 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:04:29 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:04:29 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:04:29 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:04:29 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:04:29 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:04:29 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:05:29 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:05:29 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:05:29 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:05:30 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:05:34 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:05:34 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:05:34 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:05:34 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:05:34 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:05:34 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:05:34 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:05:34 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:05:34 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:05:34 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:05:34 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:05:34 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:05:34 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:05:34 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:05:34 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:05:34 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:05:34 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:06:34 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:06:34 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:06:34 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:06:34 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:06:39 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:06:39 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:06:39 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:06:39 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:06:39 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:06:39 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:06:39 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:06:39 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:06:39 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:06:39 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:06:39 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:06:39 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:06:39 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:06:39 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:06:39 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:06:39 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:06:39 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:07:39 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:07:39 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:07:39 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:07:40 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:07:44 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:07:44 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:07:44 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:07:44 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:07:44 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:07:44 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:07:44 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:07:44 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:07:44 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:07:44 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:07:44 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:07:44 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:07:44 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:07:44 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:07:44 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:07:44 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:07:44 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:08:44 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:08:44 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:08:44 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:08:45 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:08:49 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:08:49 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:08:49 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:08:49 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:08:49 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:08:49 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:08:49 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:08:49 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:08:49 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:08:49 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:08:49 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:08:49 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:08:49 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:08:49 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:08:49 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:08:50 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:08:50 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:09:50 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:09:50 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:09:50 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:09:50 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:09:54 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:09:54 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:09:54 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:09:54 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:09:54 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:09:54 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:09:54 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:09:54 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:09:54 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:09:54 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:09:54 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:09:54 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:09:54 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:09:54 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:09:54 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:09:54 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:09:54 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:10:54 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:10:54 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:10:54 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:10:55 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:10:59 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:10:59 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:10:59 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:10:59 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:10:59 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:10:59 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:10:59 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:10:59 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:10:59 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:10:59 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:10:59 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:10:59 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:10:59 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:10:59 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:10:59 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:10:59 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:10:59 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:11:59 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:11:59 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:11:59 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:12:00 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:12:04 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:12:04 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:12:04 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:12:04 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:12:04 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:12:04 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:12:04 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:12:04 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:12:04 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:12:04 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:12:04 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:12:04 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:12:04 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:12:04 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:12:04 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:12:04 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:12:04 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:13:04 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:13:04 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:13:04 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:13:05 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:13:10 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:13:10 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:13:10 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:13:10 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:13:10 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:13:10 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:13:10 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:13:10 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:13:10 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:13:10 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:13:10 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:13:10 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:13:10 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:13:10 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:13:10 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:13:10 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:13:10 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:14:10 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:14:10 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:14:10 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:14:10 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:14:14 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:14:14 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:14:14 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:14:14 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:14:14 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:14:14 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:14:14 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:14:14 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:14:14 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:14:14 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:14:14 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:14:14 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:14:14 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:14:14 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:14:14 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:14:14 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:14:14 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:15:14 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:15:14 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:15:14 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:15:15 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:15:19 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:15:19 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:15:19 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:15:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:15:19 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:15:19 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:15:19 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:15:19 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:15:19 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:15:19 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:15:19 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:15:19 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:15:19 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:15:19 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:15:19 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:15:19 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:15:19 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:16:19 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:16:19 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:16:19 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:16:20 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:16:25 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:16:25 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:16:25 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:16:25 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:16:25 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:16:25 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:16:25 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:16:25 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:16:25 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:16:25 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:16:25 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:16:25 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:16:25 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:16:25 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:16:25 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:16:25 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:16:25 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:17:25 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:17:25 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:17:25 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:17:26 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:17:30 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:17:30 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:17:30 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:17:30 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:17:30 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:17:30 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:17:30 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:17:30 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:17:30 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:17:30 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:17:30 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:17:30 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:17:30 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:17:30 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:17:30 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:17:30 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:17:30 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:18:30 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:18:30 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:18:30 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:18:31 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:18:35 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:18:35 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:18:35 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:18:35 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:18:35 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:18:35 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:18:35 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:18:35 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:18:35 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:18:35 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:18:35 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:18:35 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:18:35 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:18:35 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:18:35 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:18:35 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:18:35 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:19:35 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:19:35 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:19:35 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:19:35 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:19:40 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:19:40 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:19:40 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:19:40 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:19:40 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:19:40 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:19:40 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:19:40 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:19:40 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:19:40 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:19:40 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:19:40 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:19:40 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:19:40 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:19:40 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:19:40 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:19:40 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:20:40 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:20:40 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:20:40 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:20:41 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:20:45 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:20:45 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:20:45 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:20:45 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:20:45 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:20:45 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:20:45 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:20:45 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:20:45 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:20:45 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:20:45 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:20:45 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:20:45 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:20:45 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:20:45 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:20:45 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:20:45 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:21:45 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:21:45 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:21:45 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:21:46 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:21:50 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:21:50 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:21:50 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:21:50 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:21:50 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:21:50 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:21:50 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:21:50 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:21:50 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:21:50 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:21:50 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:21:50 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:21:50 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:21:50 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:21:50 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:21:50 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:21:50 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:22:50 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:22:50 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:22:50 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:22:51 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:22:55 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:22:55 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:22:55 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:22:55 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:22:55 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:22:55 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:22:55 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:22:55 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:22:55 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:22:55 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:22:55 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:22:55 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:22:55 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:22:55 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:22:55 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:22:55 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:22:55 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:23:55 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:23:55 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:23:55 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:23:55 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:24:00 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:24:00 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:24:00 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:24:00 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:24:00 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:24:00 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:24:00 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:24:00 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:24:00 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:24:00 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:24:00 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:24:00 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:24:00 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:24:00 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:24:00 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:24:00 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:24:00 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:25:00 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:25:00 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:25:00 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:25:01 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:25:05 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:25:05 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:25:05 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:25:05 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:25:05 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:25:05 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:25:05 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:25:05 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:25:05 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:25:05 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:25:05 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:25:05 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:25:05 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:25:05 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:25:05 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:25:05 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:25:05 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:26:05 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:26:05 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:26:05 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:26:05 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:26:10 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:26:10 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:26:10 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:26:10 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:26:10 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:26:10 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:26:10 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:26:10 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:26:10 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:26:10 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:26:10 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:26:10 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:26:10 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:26:10 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:26:10 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:26:10 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:26:10 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:27:10 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:27:10 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:27:10 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:27:11 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:27:15 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:27:15 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:27:15 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:27:15 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:27:15 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:27:15 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:27:15 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:27:15 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:27:15 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:27:15 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:27:15 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:27:15 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:27:15 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:27:15 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:27:15 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:27:15 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:27:15 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle
+2026-11-26 09:28:15 - INFO     - product-interface.main:746 - ============================================================
+2026-11-26 09:28:15 - INFO     - product-interface.main:750 - Starting product update cycle
+2026-11-26 09:28:15 - INFO     - product-interface.main:474 - Requesting product list
+2026-11-26 09:28:16 - INFO     - product-interface.main:193 - Waiting for response: piiprdlst.pif
+2026-11-26 09:28:20 - INFO     - product-interface.main:206 - Response received: piiprdlst.pif
+2026-11-26 09:28:20 - INFO     - product-interface.product_list_parser:308 - Reading product list: /pecom/imgsrv/pii/in/piiprdlst.pif
+2026-11-26 09:28:20 - INFO     - product-interface.product_list_parser:361 - Product records found: 2
+2026-11-26 09:28:20 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      AL_5' | Last update: 202611251459
+2026-11-26 09:28:20 - INFO     - product-interface.product_list_parser:397 - Product found: 'AZ    2024-10-19      BU' | Last update: 202611240814
+2026-11-26 09:28:20 - INFO     - product-interface.product_list_parser:407 - Product list successfully parsed: 2 products
+2026-11-26 09:28:20 - INFO     - product-interface.main:505 - Product list received: 2 products
+2026-11-26 09:28:20 - INFO     - product-interface.main:257 - Response files removed: piiprdlst.pif / piiprdlst.syc
+2026-11-26 09:28:20 - INFO     - product-interface.product_cache:114 - Loading product cache: /pecom/imgsrv/products/product_cache.json
+2026-11-26 09:28:20 - INFO     - product-interface.product_cache:150 - Product cache loaded: 2 products
+2026-11-26 09:28:20 - INFO     - product-interface.product_cache:278 - Product check completed: total=2, new=0, changed=0, unchanged=2
+2026-11-26 09:28:20 - INFO     - product-interface.main:798 - Products requiring update: 0 of 2
+2026-11-26 09:28:20 - INFO     - product-interface.main:822 - Product update cycle completed: total=0, successful=0, failed=0
+2026-11-26 09:28:20 - INFO     - product-interface.main:693 - Starting job synchronization for 2 active products
+2026-11-26 09:28:20 - INFO     - product-interface.main:707 - Job recipes created: products=2, jobs=60, composites=72
+2026-11-26 09:28:20 - INFO     - product-interface.job_manager:338 - Job synchronization completed: total=60, new=0, changed=0, obsolete=0, pending_written=0, pending_removed=0, pending_unchanged=59, running=0, done=1, failed=0
+2026-11-26 09:28:20 - INFO     - product-interface.main:985 - Waiting 60 seconds for next cycle

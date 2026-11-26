@@ -66,7 +66,7 @@ logging:
     job_manager: "job_manager.log"
     composite: "composite.log"
     cleanup: "cleanup.log"
-
+    job_processor: "job_processor.log"
 
 # =============================================================================
 # DIRECTORIES
@@ -118,7 +118,7 @@ supervisor:
 
   # Auftragsbasierte Composite-Erstellung aktivieren.
   # Wird erst nach Fertigstellung der Auftragsverarbeitung aktiviert.
-  composite_processing_enabled: false
+  composite_processing_enabled: true
 
   # Automatische Dateibereinigung aktivieren.
   # Wird erst nach Fertigstellung des Cleanup-Moduls aktiviert.
@@ -274,7 +274,7 @@ jobs:
   pending: "jobs/pending"
 
   # Auftraege, die aktuell verarbeitet werden.
-  processing: "jobs/processing"
+  processing: "jobs/running"
 
   # Erfolgreich abgearbeitete Auftraege.
   done: "jobs/done"
@@ -286,6 +286,20 @@ jobs:
   # Diese Auftraege werden nicht produktiv verarbeitet.
   test: "jobs/test"
 
+# =============================================================================
+# JOB PROCESSING
+# =============================================================================
+
+job_processing:
+
+  # Anzahl parallel arbeitender Job Processor.
+  workers: 2
+
+  # Intervall zur Suche nach verarbeitbaren Auftraegen.
+  scan_interval_seconds: 2
+
+  # Konfiguration der gemeinsamen Job-Warteschlange.
+  product_interface_config: "/pecom/imgsrv/config/product-interface.yaml"
 
 # =============================================================================
 # COMPOSITE PROCESSING
@@ -312,11 +326,14 @@ composite:
   # Farbmodus des fertigen Composite-Bildes.
   output_mode: "RGB"
 
-  # Verarbeitung von ICC-Farbprofilen aktivieren.
-  icc_enabled: false
+  # ICC-Farbtransformation aktivieren.
+  icc_enabled: true
 
-  # Vollstaendiger Pfad zum verwendeten ICC-Farbprofil.
-  icc_profile: "/pecom/imgsrv/ISOnewspaper26v4.icc"
+  # Verzeichnis der verfuegbaren ICC-Profile.
+  icc_directory: "/pecom/imgsrv/icc"
+
+  # Standardprofil, falls keine Profilangabe uebermittelt wird.
+  icc_profile: "ISOnewspaper26v4.icc"
 
   # Simulation der Papierfarbe aktivieren.
   simulate_paper_color: false

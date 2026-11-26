@@ -1,0 +1,16 @@
+2026-11-26 08:15:38,000 - INFO     - imageserver.job_processor.2:367 - Job Processor 2 started
+2026-11-26 08:15:38,073 - INFO     - imageserver.job_processor.2:380 - Job Processor 2 stopped
+2026-11-26 08:22:09,553 - INFO     - imageserver.job_processor.2:367 - Job Processor 2 started
+2026-11-26 08:51:57,057 - INFO     - imageserver.job_processor.2:428 - Job Processor 2 started
+2026-11-26 08:53:06,595 - INFO     - imageserver.job_processor.2:443 - Job Processor 2 stopped
+2026-11-26 08:53:18,708 - INFO     - imageserver.job_processor.2:428 - Job Processor 2 started
+2026-11-26 08:53:18,747 - INFO     - imageserver.job_processor.2:443 - Job Processor 2 stopped
+2026-11-26 08:53:55,059 - INFO     - imageserver.job_processor.2:428 - Job Processor 2 started
+2026-11-26 08:54:04,089 - INFO     - imageserver.job_processor.2:443 - Job Processor 2 stopped
+2026-11-26 08:54:13,585 - INFO     - imageserver.job_processor.2:428 - Job Processor 2 started
+2026-11-26 08:58:46,680 - INFO     - imageserver.job_processor.2:230 - Composite requires update: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864
+2026-11-26 08:58:46,710 - INFO     - imageserver.job_processor.2:271 - Job claimed: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864 (4C)
+2026-11-26 08:58:46,764 - INFO     - imageserver.job_processor.2:120 - ICC transformation: /pecom/imgsrv/icc/ISOnewspaper26v4.icc -> sRGB, intent=RELATIVE_COLORIMETRIC
+2026-11-26 08:58:46,776 - INFO     - imageserver.job_processor.2:205 - Rendering 4C, 1075x1638: {'C': PosixPath('/pecom/imgsrv/pngs/158574.png'), 'K': PosixPath('/pecom/imgsrv/pngs/158592.png'), 'M': PosixPath('/pecom/imgsrv/pngs/158580.png'), 'Y': PosixPath('/pecom/imgsrv/pngs/158586.png')}
+2026-11-26 08:58:47,099 - INFO     - imageserver.job_processor.2:242 - RGB PNG rendered: /pecom/imgsrv/composites/.job-render-_76yjg81/rendered.tmp (1075x1638)
+2026-11-26 08:58:47,117 - INFO     - imageserver.job_processor.2:322 - Job completed: d30f7314987cf9af598235026f54256b67931e06852a84d8bb661ec51703b864 (1 composites)
